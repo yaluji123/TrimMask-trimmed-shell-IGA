@@ -15,4 +15,5 @@ x64/
 Debug/
 Release/
 __pycache__/
-
+CODE_AVAILABILITY_TEXT.md
+RELEASE_CHECKLIST.md

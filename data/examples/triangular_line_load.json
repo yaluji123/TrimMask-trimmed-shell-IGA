@@ -1,0 +1,32 @@
+{
+  "case_id": "triangular_line_load",
+  "description": "Sharp retained triangular region used to expose masking sensitivity.",
+  "domain": {
+    "umin": 0.0,
+    "umax": 1.0,
+    "vmin": 0.0,
+    "vmax": 1.0
+  },
+  "knot_spans": {
+    "u": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+    "v": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+  },
+  "trim_mask": {
+    "outer_loop": [[0.20, 0.12], [0.86, 0.14], [0.62, 0.92]],
+    "hole_loops": [],
+    "boundary_chains": [
+      {
+        "tag": 2,
+        "points": [[0.86, 0.14], [0.62, 0.92]]
+      }
+    ]
+  },
+  "quadrature_settings": {
+    "quad_gauss_n": 3,
+    "sub_cell_div": 4,
+    "tri_gauss_n": 7,
+    "backend": "triangle"
+  },
+  "expected_outputs": {}
+}
+

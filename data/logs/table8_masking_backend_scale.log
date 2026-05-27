@@ -1,0 +1,9 @@
+[IGA][Scale] patches: shell=132, beam=0, total=132
+[IGA][Scale] control points: shell=8784, beam=0, uniqueNodes=8784, totalDOF=26352
+[IGA][Scale] trim loops: trimRegisteredShells=132, nontrivialTrimShells=11, fullDomainOnlyShells=121, holeShells=1, outerLoops=132, holeLoops=1, boundaryChains=4
+[IGA][Scale] coupling interfaces=410, couplingAssembly=59250 ms
+[IGA][Scale] elements: total=503, inside=188, cut=238, outside=77
+[IGA][Scale] quadrature: stdElem=188, stdGP=1692, subCells=3808, subTestGP=34272, subAcceptedGP=29374, triOuter=0, triHole=0, triGP=0, fallback=0
+[IGA][Scale] timings: classify=1.974 ms, clipTri=0.000 ms, trimTotal=28947.173 ms, preSolve=60875 ms
+assemblySolver: assembly=1578 ms, solver=875 ms
+

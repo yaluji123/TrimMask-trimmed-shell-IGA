@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 title: "TrimMask/quadrature minimal reproducibility package for CAD-native trimmed shell IGA"
-message: "If you use this package, please cite the associated Engineering with Computers manuscript."
+message: "If you use this package, please cite the associated research article."
 type: software
 authors:
   - family-names: "Ji"
     given-names: "Yuheng"
-repository-code: "https://github.com/yaluji123/TrimMask-iga-EWC"
+repository-code: "https://github.com/yaluji123/TrimMask-trimmed-shell-IGA"
 date-released: "2026-05-27"
 license: "NOASSERTION"

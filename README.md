@@ -99,7 +99,7 @@ implementation.
 ## Recommended GitHub repository structure
 
 ```text
-TrimMask-iga-EWC/
+TrimMask-trimmed-shell-IGA/
   README.md
   LICENSE
   CITATION.cff

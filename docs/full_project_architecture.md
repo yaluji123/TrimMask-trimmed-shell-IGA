@@ -66,6 +66,8 @@ The following parts are appropriate for a public reproducibility package:
   classification, masking backend, and triangle backend.
 - `src/cpp_reference/TrimmedUV.h`: reference C++ header showing the TrimMask data
   layer used by the complete ObjectARX project.
+- `src/cpp_reference/TrimStatsExcerpt.h`: cleaned C++ excerpt documenting the
+  quadrature settings and statistics counters behind the manuscript logs.
 - `data/examples/*.json`: normalized UV trim-loop benchmark cases.
 - `data/logs/*.log`: scale and backend-comparison logs used to populate the
   manuscript tables.
@@ -97,4 +99,3 @@ full-project source locations are:
 | `IGAEntity/DocDataBridge.cpp` | Bridge from CAD entity module to the active-document TrimMask registry. |
 | `IGAEntity/lineforceShell.cpp` | Trimmed-boundary line-load entity used in the manuscript line-load examples. |
 | `IGAEntity/Couple.cpp` | CAD entity representation of non-matching coupling interfaces. |
-

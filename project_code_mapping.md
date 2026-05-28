@@ -12,6 +12,7 @@ AutoCAD, ObjectARX, MKL, or the project-specific UI.
 | Minimal package component | Project location | Purpose |
 |---|---|---|
 | TrimMask data layer | `IGAforCAD/IGAforCAD/TrimmedUV.h` | Stores outer loops, hole loops, curve trims, domain normalization, and point-in-domain tests.  A reference copy is included as `src/cpp_reference/TrimmedUV.h`.  In the runnable Python package, the same role is represented by `src/trim_quad.py::TrimMask` and the JSON `trim_mask` block. |
+| Trim/quadrature statistics | `IGAforCAD/IGAforCAD/DocData.h`, `IGAforCAD/IGAforCAD/SolveConfig.h` | Stores quadrature settings and counters behind the `[TRIM]` and `[IGA][Scale]` logs used by the manuscript tables.  A cleaned dependency-free excerpt is included as `src/cpp_reference/TrimStatsExcerpt.h`. |
 | Current-document registry | `IGAforCAD/IGAforCAD/DocData.h`, `IGAEntity/DocDataBridge.cpp` | Binds TrimMask records to the active DWG document.  This part is CAD-dependent and can be omitted in the standalone package. |
 | Quadrature settings | `IGAforCAD/IGAforCAD/SolveConfig.h` | Defines `TrimQuadratureMode`, `QuadGaussN`, `SubCellDiv`, and `TriGaussN`. |
 | Element classification | `IGAforCAD/IGAforCAD/Curves.cpp`, inside `BShellPatch::ComputeStiffness_safe` | Classifies background knot-span elements as inside, outside, or cut. |

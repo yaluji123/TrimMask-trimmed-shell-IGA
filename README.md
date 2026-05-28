@@ -48,7 +48,7 @@ This folder now contains a CAD-independent reference implementation:
 
 ```text
 src/trim_quad.py          # TrimMask, element classification, masking backend, triangle backend
-src/cpp_reference/        # reference C++ TrimMask header from the full ObjectARX project
+src/cpp_reference/        # C++ reference headers from the full ObjectARX project
 scripts/run_case.py       # command-line runner for one case/backend
 scripts/run_all_examples.py
 scripts/parse_scale_log.py
@@ -86,12 +86,15 @@ stiffness assembly.
 
 ## Reference C++ header
 
-The folder `src/cpp_reference/` contains `TrimmedUV.h`, the C++ header used in
-the full AutoCAD/ObjectARX implementation to store and query patch-level TrimMask
-records.  It is provided to show how the released Python `TrimMask` class maps to
-the project code.  This header is not part of the standalone runner and is not
-expected to compile without the original ObjectARX project, because it depends on
-Autodesk's `adesk.h` and the current-document registry implementation.
+The folder `src/cpp_reference/` contains reference C++ headers from the complete
+AutoCAD/ObjectARX implementation.  `TrimmedUV.h` stores and queries patch-level
+TrimMask records.  `TrimStatsExcerpt.h` is a cleaned, AutoCAD-independent excerpt
+of the quadrature settings and statistics counters behind the manuscript logs and
+tables.  These headers show how the released Python `TrimMask` class and log
+parser map to the project code.  They are not part of the standalone runner;
+`TrimmedUV.h` is not expected to compile without the original ObjectARX project
+because it depends on Autodesk's `adesk.h` and the current-document registry
+implementation.
 
 ## Recommended GitHub repository structure
 
@@ -104,6 +107,7 @@ TrimMask-iga-EWC/
     trim_quad.py
     cpp_reference/
       TrimmedUV.h
+      TrimStatsExcerpt.h
   data/
     trim_quad_case_template.json
     examples/

@@ -54,6 +54,7 @@ scripts/run_all_examples.py
 scripts/parse_scale_log.py
 data/examples/*.json      # small UV-domain benchmark cases
 data/logs/*.log           # Table 8 scale logs
+docs/full_project_architecture.md
 ```
 
 Run a single case:

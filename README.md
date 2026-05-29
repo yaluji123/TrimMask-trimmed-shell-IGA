@@ -1,7 +1,8 @@
 # TrimMask minimal reproducibility package
 
 This package is intended as the minimal public companion material for the manuscript
-"A B-Rep-driven computational workflow for CAD-native trimmed shell isogeometric analysis".
+"A B-Rep-based TrimMask approach for CAD-native isogeometric analysis of
+trimmed shell structures".
 
 ## Scope of this public package
 
@@ -23,6 +24,17 @@ geometric decision layer used by the full C++ code:
 3. masking-based sub-cell quadrature;
 4. triangle-based visible-region quadrature;
 5. benchmark logs for the backend comparison and the box-girder scale example.
+
+## Citation and reuse
+
+If you use this companion package, please cite the associated manuscript and this
+repository.  Citation metadata are provided in `CITATION.cff`.
+
+The public package is released for manuscript review and research inspection.
+See `LICENSE` for the current reuse terms.  The complete AutoCAD/ObjectARX C++
+research implementation is not included in this repository and is available only
+from the corresponding author upon reasonable request, subject to project,
+dependency, and CAD-kernel licensing constraints.
 
 ## What TrimMask means here
 
@@ -96,13 +108,15 @@ parser map to the project code.  They are not part of the standalone runner;
 because it depends on Autodesk's `adesk.h` and the current-document registry
 implementation.
 
-## Recommended GitHub repository structure
+## Repository structure
 
 ```text
 TrimMask-trimmed-shell-IGA/
   README.md
   LICENSE
   CITATION.cff
+  DATA_SCHEMA.md
+  project_code_mapping.md
   src/
     trim_quad.py
     cpp_reference/
@@ -121,8 +135,7 @@ TrimMask-trimmed-shell-IGA/
     run_case.py
     parse_scale_log.py
   docs/
-    DATA_SCHEMA.md
-    project_code_mapping.md
+    full_project_architecture.md
 ```
 
 ## What to include from the current project

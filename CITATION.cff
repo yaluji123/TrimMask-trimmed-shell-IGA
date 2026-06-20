@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "TrimMask minimal reproducibility package for CAD-native trimmed shell IGA"
+title: "TrimMask companion data for CAD-native trimmed shell IGA"
 message: "If you use this package, please cite the associated research article and this repository."
 type: software
 authors:
@@ -15,7 +15,7 @@ authors:
     given-names: "Pengyu"
   - family-names: "Wang"
     given-names: "Deyu"
-abstract: "Minimal public companion package for the manuscript 'A B-Rep-based TrimMask approach for CAD-native isogeometric analysis of trimmed shell structures'. The package contains normalized UV trim-loop examples, a CAD-independent TrimMask/quadrature reference implementation, backend-comparison scripts, and scale logs."
+abstract: "Companion data package for the manuscript 'TrimMask: a unified active-domain contract for severity-aware quadrature and feature-aware resolution in CAD-native trimmed shell isogeometric analysis'. The repository contains exported TrimMask diagnostics, CAD input geometries, IGES geometry exports, and an AutoCAD/ObjectARX plug-in package for compatible reproduction environments."
 repository-code: "https://github.com/yaluji123/TrimMask-trimmed-shell-IGA"
-date-released: "2026-05-27"
+date-released: "2026-06-20"
 license: "NOASSERTION"

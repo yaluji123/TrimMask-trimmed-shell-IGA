@@ -1,0 +1,4 @@
+operator,tested,accepted,rejectedByTrim,rejectedByMasterTrim,rejectedBySlaveTrim,acceptanceRatio,rejectionRatio,physicalMeasure,appliedResultant,referenceResultant,resultantRelativeError
+surface-pressure,0,0,0,0,0,0,0,0,0,0,0
+line-load,0,0,0,0,0,0,0,4001.04,400104,400104,0
+coupling-interface,0,0,0,0,0,0,0,0,0,0,0

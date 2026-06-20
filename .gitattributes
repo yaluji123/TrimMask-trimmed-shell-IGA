@@ -1,0 +1,7 @@
+*.csv text eol=lf
+*.md text eol=lf
+*.dwg binary
+*.iges text eol=lf
+*.arx binary
+*.dbx binary
+*.dll binary

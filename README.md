@@ -1,171 +1,101 @@
-# TrimMask minimal reproducibility package
+# TrimMask trimmed-shell IGA companion data
 
-This package is intended as the minimal public companion material for the manuscript
-"A B-Rep-based TrimMask approach for CAD-native isogeometric analysis of
-trimmed shell structures".
+This repository is the public companion material for the manuscript
+**"TrimMask: a unified active-domain contract for severity-aware quadrature and
+feature-aware resolution in CAD-native trimmed shell isogeometric analysis"**.
 
-## Scope of this public package
+The repository has been reduced to the materials needed to inspect the numerical
+evidence reported in the paper:
 
-The research code used for the manuscript is a complete AutoCAD/ObjectARX C++
-program.  It includes DWG/B-Rep pre-processing, TrimMask construction from native
-CAD entities, isogeometric shell stiffness/load/coupling assembly, linear solving,
-stress recovery, and CAD-based post-processing/visualization.
+- tabulated TrimMask diagnostics exported from the IGAforCAD implementation;
+- DWG and IGES geometry files for the paper examples;
+- a packaged AutoCAD/ObjectARX plug-in build used to generate the diagnostics;
+- documentation describing the runtime environment and reproducibility scope.
 
-This public folder is not the complete AutoCAD/ObjectARX program.  It is a
-minimal, CAD-independent Python reference package that shows the reproducible
-TrimMask and cut-cell quadrature part of the implementation.  DWG entities,
-AutoCAD handles, ObjectARX SDK calls, shell stiffness matrices, and post-processing
-objects are intentionally replaced by small JSON trim-loop cases and the scalar
-area integral `f(u,v)=1`.  The purpose is to let readers inspect and rerun the
-geometric decision layer used by the full C++ code:
+It is not a standalone reimplementation of the solver and it is not a Python
+demo package. The complete research code is an AutoCAD/ObjectARX C++ plug-in
+that depends on Autodesk CAD APIs and third-party numerical libraries.
 
-1. normalized UV trimming loops stored as a reusable TrimMask data layer;
-2. background knot-span element classification;
-3. masking-based sub-cell quadrature;
-4. triangle-based visible-region quadrature;
-5. benchmark logs for the backend comparison and the box-girder scale example.
-
-## Citation and reuse
-
-If you use this companion package, please cite the associated manuscript and this
-repository.  Citation metadata are provided in `CITATION.cff`.
-
-The public package is released for manuscript review and research inspection.
-See `LICENSE` for the current reuse terms.  The complete AutoCAD/ObjectARX C++
-research implementation is not included in this repository and is available only
-from the corresponding author upon reasonable request, subject to project,
-dependency, and CAD-kernel licensing constraints.
-
-## What TrimMask means here
-
-In the full AutoCAD/ObjectARX C++ code, a TrimMask is the patch-level
-trimmed-domain data layer built after CAD B-Rep extraction.  For each shell patch
-it stores the retained outer UV loop, hole loops, trimmed boundary chains, and
-domain-normalization information.  The rest of the solver does not repeatedly
-query the CAD kernel; it queries this TrimMask object to answer the same geometric
-questions everywhere: whether a UV point is active, whether a background knot-span
-element is inside/outside/cut, which visible subregion should be integrated, and
-which trimmed boundary chains are available for line loads, weak boundary
-conditions, coupling, and post-processing.
-
-In this Python package, the same concept is represented by the `TrimMask` data
-class in `src/trim_quad.py` and by the `trim_mask` block in each JSON case file.
-The implementation is deliberately small, but the data flow matches the manuscript:
-JSON trim loops -> `TrimMask` -> element classification -> masking or triangle
-quadrature -> statistics.
-
-## Current runnable code
-
-This folder now contains a CAD-independent reference implementation:
+## Repository layout
 
 ```text
-src/trim_quad.py          # TrimMask, element classification, masking backend, triangle backend
-src/cpp_reference/        # C++ reference headers from the full ObjectARX project
-scripts/run_case.py       # command-line runner for one case/backend
-scripts/run_all_examples.py
-scripts/parse_scale_log.py
-data/examples/*.json      # small UV-domain benchmark cases
-data/logs/*.log           # Table 8 scale logs
-docs/full_project_architecture.md
+data/
+  trim_diagnostics/
+    trapezoid_pressure/
+    triangle_line/
+    Complex perforated plate/
+    Framework structure/
+  cad/
+    dwg/
+    iges/
+plugin/
+  AutoCAD_2025_Debug_x64/
+docs/
+  reproducibility.md
+  environment.md
+DATA_SCHEMA.md
+CITATION.cff
+LICENSE
 ```
 
-Run a single case:
+## What each folder contains
 
-```bash
-python scripts/run_case.py --case data/examples/trapezoid_surface_load.json --backend triangle
-python scripts/run_case.py --case data/examples/trapezoid_surface_load.json --backend masking
-python scripts/run_case.py --case data/examples/triangular_line_load.json --backend triangle
-python scripts/run_case.py --case data/examples/perforated_plate.json --backend masking
-```
+`data/trim_diagnostics/` contains the CSV files used to construct the diagnostic
+tables and discussion in the manuscript. Each benchmark is divided into
+quadrature-strategy subfolders, typically `fixed_subcell`, `fixed_triangle`, and
+`severity_aware`.
 
-Run all examples:
+`data/cad/dwg/` contains the native DWG input models. `data/cad/iges/` contains
+IGES exports of the same benchmark geometries for geometry inspection and
+cross-software viewing.
 
-```bash
-python scripts/run_all_examples.py
-```
+`plugin/AutoCAD_2025_Debug_x64/` contains the packaged AutoCAD plug-in binaries
+and dependent runtime libraries. The `.pdb` debug-symbol files are intentionally
+not included because they are not required for execution and exceed GitHub's
+ordinary file-size limit.
 
-Parse the Table 8 scale logs:
+## Can the plug-in run without installing an environment?
 
-```bash
-python scripts/parse_scale_log.py data/logs/table8_triangle_backend_scale.log data/logs/table8_masking_backend_scale.log
-```
+No. `IGAforCAD.arx` and `JYH_IGAEntity.dbx` are AutoCAD/ObjectARX runtime
+extensions, not standalone Windows executables. They must be loaded inside a
+compatible 64-bit AutoCAD installation. The supplied build was prepared against
+the AutoCAD/ObjectARX 2025 environment.
 
-The runner reports element classes, integration-point counts, triangle/sub-cell
-counts, fallback counts, timing, and a scalar area check.  It integrates
-`f(u,v)=1` over the retained trimmed region, so `integrated_area` can be used to
-compare the masking and triangle backends without requiring the full shell
-stiffness assembly.
+At minimum, a reproduction machine needs:
 
-## Reference C++ header
+1. Windows x64;
+2. AutoCAD 2025 x64, or a binary-compatible AutoCAD release if rebuilt for that
+   release;
+3. the supplied files in `plugin/AutoCAD_2025_Debug_x64/` kept in one directory
+   or available on the system `PATH`;
+4. the Microsoft C++ runtime required by the build. Because this package is a
+   Debug build, a machine without Visual Studio debug runtime components may not
+   load it. For external reproduction, a Release x64 build is preferable;
+5. AutoCAD security settings that allow loading the plug-in directory, for
+   example by adding it to trusted paths or using the appropriate `SECURELOAD`
+   setting.
 
-The folder `src/cpp_reference/` contains reference C++ headers from the complete
-AutoCAD/ObjectARX implementation.  `TrimmedUV.h` stores and queries patch-level
-TrimMask records.  `TrimStatsExcerpt.h` is a cleaned, AutoCAD-independent excerpt
-of the quadrature settings and statistics counters behind the manuscript logs and
-tables.  These headers show how the released Python `TrimMask` class and log
-parser map to the project code.  They are not part of the standalone runner;
-`TrimmedUV.h` is not expected to compile without the original ObjectARX project
-because it depends on Autodesk's `adesk.h` and the current-document registry
-implementation.
+See `docs/environment.md` for a more detailed environment note and
+`docs/reproducibility.md` for the intended reproduction workflow.
 
-## Repository structure
+## Reproducibility scope
 
-```text
-TrimMask-trimmed-shell-IGA/
-  README.md
-  LICENSE
-  CITATION.cff
-  DATA_SCHEMA.md
-  project_code_mapping.md
-  src/
-    trim_quad.py
-    cpp_reference/
-      TrimmedUV.h
-      TrimStatsExcerpt.h
-  data/
-    trim_quad_case_template.json
-    examples/
-      trapezoid_surface_load.json
-      triangular_line_load.json
-      perforated_plate.json
-    logs/
-      table8_triangle_backend_scale.log
-      table8_masking_backend_scale.log
-  scripts/
-    run_case.py
-    parse_scale_log.py
-  docs/
-    full_project_architecture.md
-```
+The CSV diagnostics are the primary reproducibility data for the manuscript
+tables and claims. They allow reviewers to inspect:
 
-## What to include from the current project
+- cut-cell classification and retained-area metrics;
+- strategy-level quadrature counts and runtimes;
+- operator-domain consistency checks for loads and coupling;
+- feature-aware analysis-resolution recommendations;
+- severity-aware rule assignment and fallback events.
 
-The following files/regions are the source of the minimal implementation:
+The packaged plug-in and CAD files are provided to support rerunning the same
+workflow in a compatible AutoCAD environment. Because the implementation depends
+on commercial CAD APIs and a local AutoCAD runtime, this repository should be
+described in the manuscript as a data and executable companion package, not as a
+fully environment-independent open-source solver.
 
-- `IGAforCAD/IGAforCAD/TrimmedUV.h`: TrimMask registry, UV loops, hole loops,
-  curve trims, coordinate-domain normalization, and point-in-trim tests.
-- `IGAforCAD/IGAforCAD/Curves.cpp`: trimmed-element classification, sub-cell
-  masking, triangle/Clipper2 visible-region construction, quadrature statistics.
-- `IGAforCAD/IGAforCAD/SolveConfig.h`: public quadrature settings:
-  `TrimQuadratureMode`, `QuadGaussN`, `SubCellDiv`, and `TriGaussN`.
-- `IGAforCAD/IGAforCAD/DocData.h`: the fields used in `IGATrimStiffStats`.
-- `IGAforCAD/IGAforCAD/igaPaletteChildDlg.cpp`: scale-report log lines used for
-  Table 8.
+## Citation
 
-Do not publish the complete plug-in unless all project, dependency, and CAD-kernel
-licensing constraints have been checked.
-
-## Minimal command-line behavior
-
-The current Python implementation accepts one JSON case file and one backend.
-
-The output should include at least:
-
-```text
-elements: total=..., inside=..., cut=..., outside=...
-quadrature: stdElem=..., stdGP=..., subCells=..., subTestGP=..., subAcceptedGP=..., triOuter=..., triHole=..., triGP=..., fallback=...
-timings: classify=... ms, clipTri=... ms, trimTotal=... ms
-```
-
-This is enough to support the manuscript's reproducibility claim without exposing
-the full CAD plug-in.
+If you use this repository, please cite the associated manuscript and this
+companion package. Citation metadata are provided in `CITATION.cff`.

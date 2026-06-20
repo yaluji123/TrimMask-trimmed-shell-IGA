@@ -1,0 +1,2 @@
+shellH,physicalLengthU,physicalLengthV,patchAspectRatio,minFeatureScaleUV,minFeatureScalePhysical,targetElementSizeU,targetElementSizeV,targetElementAspectRatio,minBoundaryDistanceUV,targetSpansPerFeature,degreeU,degreeV,ctrlU,ctrlV,quadGaussN,subCellDiv,triGaussN,lineGaussLoad,lineGaussBC,lineGaussCouple,coupleSegments,coupleMapSamples,weakBoundary,couplingBoundary,loadBoundary,hole,corner,narrowBridge,shortBoundary,reasons
+1137,100,75,1.33333,1,75,10,7.5,1.33333,0,6,3,3,13,13,4,5,7,4,4,5,3,3,0,0,0,0,4,0,0,trimmed-or-operator-domain|trim-boundary-chain|sharp-corner-feature

@@ -18,12 +18,11 @@ __pycache__/
 CODE_AVAILABILITY_TEXT.md
 RELEASE_CHECKLIST.md
 
-# The review package intentionally includes the AutoCAD/ObjectARX runtime
-# binaries needed to load the companion plug-in. Debug symbol files remain
-# ignored because they are not required for reproduction and exceed GitHub's
-# ordinary file-size limit.
+# The package intentionally includes the AutoCAD/ObjectARX runtime binaries
+# needed to load the plug-in. Symbol files remain ignored because they are not
+# required for execution and exceed ordinary repository file-size limits.
 !plugin/
-!plugin/AutoCAD_2025_Debug_x64/
-!plugin/AutoCAD_2025_Debug_x64/*.dll
-!plugin/AutoCAD_2025_Debug_x64/*.arx
-!plugin/AutoCAD_2025_Debug_x64/*.dbx
+!plugin/AutoCAD_2025_Release_x64/
+!plugin/AutoCAD_2025_Release_x64/*.dll
+!plugin/AutoCAD_2025_Release_x64/*.arx
+!plugin/AutoCAD_2025_Release_x64/*.dbx

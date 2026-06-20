@@ -3,16 +3,16 @@ Pengyu Wei, and Deyu Wang.
 
 All rights reserved.
 
-This repository is provided as a minimal public companion package for the
-manuscript "A B-Rep-based TrimMask approach for CAD-native isogeometric
-analysis of trimmed shell structures". It is made available for manuscript
-review, research inspection, and reproducibility checking.
+This repository is provided as a minimal public reproducibility package for
+TrimMask trimmed-shell isogeometric analysis diagnostics. It includes exported
+diagnostic data, CAD geometry files, and a packaged AutoCAD/ObjectARX runtime
+build.
 
 No open-source license is granted for copying, redistribution, modification,
 commercial use, or incorporation into other software unless separate written
 permission is obtained from the copyright holders.
 
-The complete AutoCAD/ObjectARX C++ research implementation is not included in
-this repository and is available only from the corresponding author upon
+The complete AutoCAD/ObjectARX C++ implementation is not included in this
+repository and is available only from the corresponding author upon
 reasonable request, subject to project, dependency, and CAD-kernel licensing
 constraints.

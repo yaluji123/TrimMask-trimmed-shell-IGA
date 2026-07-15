@@ -15,6 +15,10 @@ Typical strategies are:
 - `severity_aware`: severity-aware rule assignment with explicit fallback
   checks.
 
+Version 1.1.0 contains five CSV files for every benchmark/strategy
+combination, for a total of 60 files across four benchmarks and three
+strategies.
+
 ## Common CSV files
 
 The exact file set varies by benchmark, but the following files are commonly
@@ -25,6 +29,10 @@ exported.
 Strategy-level summary for table-level comparisons. Typical fields include
 candidate and active quadrature-point counts, retained-area consistency error,
 line-load or operator-domain errors, runtime, and policy counts.
+
+Runtime fields report operation-level timing emitted inside the analysis
+workflow. They exclude external process startup, CAD file loading, and batch
+orchestration time.
 
 ### `trim_cell_diagnostics.csv`
 

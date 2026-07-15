@@ -11,6 +11,15 @@ The repository includes:
 - a packaged AutoCAD/ObjectARX Release x64 plug-in build;
 - documentation describing the runtime environment and data schema.
 
+## Current release
+
+Version 1.1.0 updates the packaged AutoCAD/ObjectARX Release binaries and the
+diagnostic data for all four benchmarks. The 60 CSV files were regenerated on
+2026-07-13 with the bundled Release runtime under a common one-click resolution
+setup. Each of the 12 benchmark/strategy combinations now includes the
+analysis-resolution advisor record alongside the cell, experiment, operator,
+and run summaries.
+
 The complete implementation is an AutoCAD/ObjectARX C++ plug-in that depends on
 Autodesk CAD APIs and third-party numerical libraries. The Python demonstration
 code and obsolete example scripts previously stored here have been removed to
@@ -42,7 +51,8 @@ LICENSE
 
 `data/trim_diagnostics/` contains the exported CSV diagnostics. Each benchmark
 is divided into strategy subfolders, typically `fixed_subcell`,
-`fixed_triangle`, and `severity_aware`.
+`fixed_triangle`, and `severity_aware`. The version 1.1.0 data are a consistent
+Release rerun rather than a mixture of earlier debug and release outputs.
 
 `data/cad/dwg/` contains the native DWG input models. `data/cad/iges/` contains
 IGES exports of the same benchmark geometries for independent geometry
@@ -91,4 +101,7 @@ environment-independent open-source solver.
 ## Citation
 
 If you use this package, cite this repository. Citation metadata are provided in
-`CITATION.cff`.
+`CITATION.cff`. The version-independent Zenodo concept DOI is
+[`10.5281/zenodo.20775314`](https://doi.org/10.5281/zenodo.20775314); use the
+version-specific DOI shown on the corresponding Zenodo record when citing a
+particular release.

@@ -2,7 +2,8 @@ cff-version: 1.2.0
 title: "TrimMask trimmed-shell IGA reproducibility package"
 message: "If you use this package, please cite this repository."
 type: dataset
-version: "1.0.1"
+version: "1.1.0"
+doi: "10.5281/zenodo.20775314"
 authors:
   - family-names: "Ji"
     given-names: "Yuheng"
@@ -18,5 +19,5 @@ authors:
     given-names: "Deyu"
 abstract: "Reproducibility package containing exported TrimMask diagnostics, CAD input geometries, IGES geometry exports, and an AutoCAD/ObjectARX Release plug-in package for compatible CAD-native analysis environments."
 repository-code: "https://github.com/yaluji123/TrimMask-trimmed-shell-IGA"
-date-released: "2026-06-20"
+date-released: "2026-07-15"
 license-url: "https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/blob/main/LICENSE"

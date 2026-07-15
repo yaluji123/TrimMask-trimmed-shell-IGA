@@ -16,7 +16,7 @@ activeCandidateQuadratureRatio,1
 stiffnessIntegratedParametricArea,0.5
 stiffnessIntegratedPhysicalArea,18016.5
 activeParametricAreaReference,0.5
-activeAreaConsistencyError,2.22045e-16
+activeAreaConsistencyError,0
 policySubcell,0
 policyTriangle,36
 policyFallback,0
@@ -68,6 +68,6 @@ couplingPointsRejectedBySlaveTrim,0
 couplingAcceptanceRatio,0
 couplingMasterRejectionRatio,0
 couplingSlaveRejectionRatio,0
-trimClassifyMs,0.077
-trimClipTriMs,37.01
-trimTotalMs,1001.06
+trimClassifyMs,11.204
+trimClipTriMs,4.541
+trimTotalMs,79.6

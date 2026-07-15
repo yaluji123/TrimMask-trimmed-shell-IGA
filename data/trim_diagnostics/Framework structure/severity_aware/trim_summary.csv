@@ -68,6 +68,6 @@ couplingPointsRejectedBySlaveTrim,0
 couplingAcceptanceRatio,0.698276
 couplingMasterRejectionRatio,0.301724
 couplingSlaveRejectionRatio,0
-trimClassifyMs,0.386
-trimClipTriMs,213.649
-trimTotalMs,8927.88
+trimClassifyMs,0.031
+trimClipTriMs,1.629
+trimTotalMs,399.357

@@ -15,9 +15,8 @@ Typical strategies are:
 - `severity_aware`: severity-aware rule assignment with explicit fallback
   checks.
 
-Version 1.1.0 contains five CSV files for every benchmark/strategy
-combination, for a total of 60 files across four benchmarks and three
-strategies.
+Version 1.2.1 contains five CSV files for every benchmark/strategy combination,
+for a total of 45 files across three benchmarks and three strategies.
 
 ## Common CSV files
 
@@ -69,8 +68,6 @@ quadrature work, accepted quadrature points, fallback counts, and timing.
   sharp-corner and line-load verification.
 - `Complex perforated plate`: controlled complex perforated plate used for
   severity-aware quadrature comparisons.
-- `Framework structure`: engineering-scale trimmed-shell structure used for
-  feature-aware resolution, operator-domain consistency, and fallback evidence.
 
 ## CAD files
 
@@ -85,7 +82,7 @@ DWG files are the native inputs used by the AutoCAD/ObjectARX implementation.
 IGES files are geometry exchange exports intended for inspection in external CAD
 tools.
 
-The version 1.2.0 engineering-validation DWG files are:
+The version 1.2.1 engineering-validation DWG files are:
 
 - `perforated_stiffened_plate_1x_displacement_controlled.dwg`: 1x IGA model
   with the prescribed end displacement stored in the DWG;
@@ -100,8 +97,6 @@ The matching finite-element inputs are provided in:
 data/fem/abaqus/
 ```
 
-- `stiffened_shell_assembly.inp`: same-geometry finite-element reference for
-  the stiffened shell assembly;
 - `perforated_stiffened_plate_displacement_controlled.inp`: perforated
   stiffened plate with `U3 = -0.5 mm` prescribed at the loaded end;
 - `hull_girder_segment_torsion.inp`: hull-girder segment with kinematic

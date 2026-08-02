@@ -15,11 +15,11 @@ The repository includes:
 
 ## Current release
 
-Version 1.2.0 adds two analysis-ready 1x DWG models and three matching Abaqus
-input decks for the engineering validation cases. It also updates
-`IGAforCAD.arx` and `JYH_IGAEntity.dbx` to the 2026-08-02 Release build. The
-existing benchmark DWG/IGES files and the 60 diagnostic CSV files from version
-1.1.0 are unchanged.
+Version 1.2.1 removes the superseded assembly benchmark and its finite-element
+reference. The current package retains three quadrature benchmarks with 45
+diagnostic CSV files, two analysis-ready 1x engineering-validation DWG models,
+and their matching Abaqus input decks. The packaged `IGAforCAD.arx` and
+`JYH_IGAEntity.dbx` remain the 2026-08-02 Release build.
 
 The complete implementation is an AutoCAD/ObjectARX C++ plug-in that depends on
 Autodesk CAD APIs and third-party numerical libraries. The Python demonstration
@@ -34,7 +34,6 @@ data/
     trapezoid_pressure/
     triangle_line/
     Complex perforated plate/
-    Framework structure/
   cad/
     dwg/
     iges/
@@ -60,12 +59,12 @@ Release rerun rather than a mixture of earlier debug and release outputs.
 `data/cad/dwg/` contains the native DWG input models, including the 1x
 displacement-controlled perforated stiffened plate and the 1x hull-girder
 segment under torsion. `data/cad/iges/` contains exchange exports for the
-original four benchmark geometries.
+three retained benchmark geometries.
 
-`data/fem/abaqus/` contains the Abaqus input decks for the stiffened shell
-assembly, the displacement-controlled perforated stiffened plate, and the
-hull-girder segment under torsion. The loading and boundary conditions are
-stored in the input decks rather than inferred from filenames.
+`data/fem/abaqus/` contains the Abaqus input decks for the
+displacement-controlled perforated stiffened plate and the hull-girder segment
+under torsion. The loading and boundary conditions are stored in the input decks
+rather than inferred from filenames.
 
 `plugin/AutoCAD_2025_Release_x64/` contains the AutoCAD/ObjectARX plug-in
 binaries and dependent runtime libraries. The `.pdb` symbol files are not
@@ -110,7 +109,5 @@ environment-independent open-source solver.
 ## Citation
 
 If you use this package, cite this repository. Citation metadata are provided in
-`CITATION.cff`. The version-specific DOI for version 1.2.0 is
-[`10.5281/zenodo.21754863`](https://doi.org/10.5281/zenodo.21754863). The
-version-independent Zenodo concept DOI is
+`CITATION.cff`. The version-independent Zenodo concept DOI is
 [`10.5281/zenodo.20775314`](https://doi.org/10.5281/zenodo.20775314).

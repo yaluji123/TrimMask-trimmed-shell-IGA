@@ -6,8 +6,9 @@ cannot be run as a standalone program on a machine without AutoCAD.
 ## Tested build target
 
 The bundled binaries in `plugin/AutoCAD_2025_Release_x64/` correspond to a
-64-bit AutoCAD/ObjectARX 2025 Release build. The source project used for this
-package targets:
+64-bit AutoCAD/ObjectARX 2025 Release build. Version 1.2.0 packages the
+2026-08-02 build of `IGAforCAD.arx` and `JYH_IGAEntity.dbx`. The source project
+used for this package targets:
 
 - AutoCAD 2025;
 - ObjectARX 2025 SDK;

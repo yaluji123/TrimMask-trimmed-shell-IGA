@@ -8,17 +8,18 @@ The repository includes:
 
 - exported TrimMask diagnostic CSV files;
 - DWG and IGES geometry files for the benchmark models;
+- analysis-ready 1x DWG models and matching Abaqus input decks for the
+  engineering validation cases;
 - a packaged AutoCAD/ObjectARX Release x64 plug-in build;
 - documentation describing the runtime environment and data schema.
 
 ## Current release
 
-Version 1.1.0 updates the packaged AutoCAD/ObjectARX Release binaries and the
-diagnostic data for all four benchmarks. The 60 CSV files were regenerated on
-2026-07-13 with the bundled Release runtime under a common one-click resolution
-setup. Each of the 12 benchmark/strategy combinations now includes the
-analysis-resolution advisor record alongside the cell, experiment, operator,
-and run summaries.
+Version 1.2.0 adds two analysis-ready 1x DWG models and three matching Abaqus
+input decks for the engineering validation cases. It also updates
+`IGAforCAD.arx` and `JYH_IGAEntity.dbx` to the 2026-08-02 Release build. The
+existing benchmark DWG/IGES files and the 60 diagnostic CSV files from version
+1.1.0 are unchanged.
 
 The complete implementation is an AutoCAD/ObjectARX C++ plug-in that depends on
 Autodesk CAD APIs and third-party numerical libraries. The Python demonstration
@@ -37,6 +38,8 @@ data/
   cad/
     dwg/
     iges/
+  fem/
+    abaqus/
 plugin/
   AutoCAD_2025_Release_x64/
 docs/
@@ -54,9 +57,15 @@ is divided into strategy subfolders, typically `fixed_subcell`,
 `fixed_triangle`, and `severity_aware`. The version 1.1.0 data are a consistent
 Release rerun rather than a mixture of earlier debug and release outputs.
 
-`data/cad/dwg/` contains the native DWG input models. `data/cad/iges/` contains
-IGES exports of the same benchmark geometries for independent geometry
-inspection and cross-software viewing.
+`data/cad/dwg/` contains the native DWG input models, including the 1x
+displacement-controlled perforated stiffened plate and the 1x hull-girder
+segment under torsion. `data/cad/iges/` contains exchange exports for the
+original four benchmark geometries.
+
+`data/fem/abaqus/` contains the Abaqus input decks for the stiffened shell
+assembly, the displacement-controlled perforated stiffened plate, and the
+hull-girder segment under torsion. The loading and boundary conditions are
+stored in the input decks rather than inferred from filenames.
 
 `plugin/AutoCAD_2025_Release_x64/` contains the AutoCAD/ObjectARX plug-in
 binaries and dependent runtime libraries. The `.pdb` symbol files are not

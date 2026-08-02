@@ -26,9 +26,10 @@ language can read the CSV files.
 
 ## Level 2: rerunning the CAD-native workflow
 
-The DWG files in `data/cad/dwg/`, the IGES exports in `data/cad/iges/`, and the
-plug-in binaries in `plugin/AutoCAD_2025_Release_x64/` support rerunning or
-inspecting the CAD-native workflow.
+The DWG files in `data/cad/dwg/`, the IGES exports in `data/cad/iges/`, the
+Abaqus inputs in `data/fem/abaqus/`, and the plug-in binaries in
+`plugin/AutoCAD_2025_Release_x64/` support rerunning or inspecting the
+CAD-native workflow and the finite-element comparison cases.
 
 This level requires a compatible AutoCAD/ObjectARX environment. The supplied
 plug-in is not a standalone solver and cannot be loaded without AutoCAD. See
@@ -48,3 +49,22 @@ The four benchmark folders provide staged diagnostic evidence:
 
 The repository intentionally excludes old standalone demonstration code that
 does not generate the exported CAD-native diagnostics.
+
+## Engineering validation cases
+
+Version 1.2.0 adds the files needed to reproduce the three engineering-scale
+comparisons without changing the version 1.1.0 benchmark data:
+
+1. The stiffened shell assembly is paired with
+   `data/fem/abaqus/stiffened_shell_assembly.inp`.
+2. The perforated stiffened plate uses
+   `data/cad/dwg/perforated_stiffened_plate_1x_displacement_controlled.dwg` and
+   the Abaqus deck with the same prescribed end displacement of `U3 = -0.5
+   mm`.
+3. The hull-girder segment uses
+   `data/cad/dwg/hull_girder_segment_1x.dwg` and the Abaqus torsion deck with
+   equal and opposite end rotations of `0.0012 rad`.
+
+The DWG files are analysis-ready AutoCAD/ObjectARX models. The Abaqus decks are
+provided as independent finite-element references and are not consumed by the
+plug-in.

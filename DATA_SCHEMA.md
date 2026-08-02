@@ -84,3 +84,26 @@ data/cad/iges/
 DWG files are the native inputs used by the AutoCAD/ObjectARX implementation.
 IGES files are geometry exchange exports intended for inspection in external CAD
 tools.
+
+The version 1.2.0 engineering-validation DWG files are:
+
+- `perforated_stiffened_plate_1x_displacement_controlled.dwg`: 1x IGA model
+  with the prescribed end displacement stored in the DWG;
+- `hull_girder_segment_1x.dwg`: 1x IGA model of the hull-girder segment under
+  equal and opposite end rotations.
+
+## Abaqus input decks
+
+The matching finite-element inputs are provided in:
+
+```text
+data/fem/abaqus/
+```
+
+- `stiffened_shell_assembly.inp`: same-geometry finite-element reference for
+  the stiffened shell assembly;
+- `perforated_stiffened_plate_displacement_controlled.inp`: perforated
+  stiffened plate with `U3 = -0.5 mm` prescribed at the loaded end;
+- `hull_girder_segment_torsion.inp`: hull-girder segment with kinematic
+  end-section coupling and reference-point rotations of `+0.0012 rad` and
+  `-0.0012 rad`.

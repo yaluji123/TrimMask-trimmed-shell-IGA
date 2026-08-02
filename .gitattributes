@@ -1,5 +1,8 @@
 *.csv text eol=lf
 *.md text eol=lf
+*.cff text eol=lf
+*.inp binary
+*.txt text eol=lf
 *.dwg binary
 *.iges text eol=lf
 *.arx binary

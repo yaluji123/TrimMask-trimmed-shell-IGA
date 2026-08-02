@@ -3,7 +3,14 @@ title: "TrimMask trimmed-shell IGA reproducibility package"
 message: "If you use this package, please cite this repository."
 type: dataset
 version: "1.2.0"
-doi: "10.5281/zenodo.20775314"
+doi: "10.5281/zenodo.21754863"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21754863"
+    description: "Version-specific DOI for v1.2.0-TrimMask-IGA."
+  - type: doi
+    value: "10.5281/zenodo.20775314"
+    description: "Concept DOI covering all versions of this package."
 authors:
   - family-names: "Ji"
     given-names: "Yuheng"

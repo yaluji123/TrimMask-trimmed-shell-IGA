@@ -110,7 +110,7 @@ environment-independent open-source solver.
 ## Citation
 
 If you use this package, cite this repository. Citation metadata are provided in
-`CITATION.cff`. The version-independent Zenodo concept DOI is
-[`10.5281/zenodo.20775314`](https://doi.org/10.5281/zenodo.20775314); use the
-version-specific DOI shown on the corresponding Zenodo record when citing a
-particular release.
+`CITATION.cff`. The version-specific DOI for version 1.2.0 is
+[`10.5281/zenodo.21754863`](https://doi.org/10.5281/zenodo.21754863). The
+version-independent Zenodo concept DOI is
+[`10.5281/zenodo.20775314`](https://doi.org/10.5281/zenodo.20775314).

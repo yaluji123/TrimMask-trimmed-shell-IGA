@@ -1,2 +1,2 @@
 strategy,trimMode,quadGaussN,subCellDivGlobal,triGaussNGlobal,elemTotal,elemIn,elemCut,elemOut,policySubcell,policyTriangle,policyFallback,standardQuadraturePoints,subCellCandidatePoints,subCellAcceptedPoints,triangleIntegrationPoints,candidateQuadraturePoints,activeQuadraturePoints,activeCandidateQuadratureRatio,activeAreaConsistencyError,pressureResultantRelativeError,lineLoadResultantRelativeError,pressureRejectionRatio,lineLoadRejectionRatio,couplingAcceptanceRatio,trimClassifyMs,trimClipTriMs,trimTotalMs
-ear-triangle,1,4,5,7,100,46,54,0,0,54,0,736,0,0,3899,4635,4635,1,0.000722163,0,0,0,0,0,10.59,4.818,319.336
+ear-triangle,1,4,6,7,1296,1149,98,49,0,98,0,18384,0,0,5691,24075,24075,1,0.000577816,0,0,0,0,0,13.74,0.753,1043.36

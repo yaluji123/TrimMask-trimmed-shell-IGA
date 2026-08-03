@@ -15,11 +15,11 @@ The repository includes:
 
 ## Current release
 
-Version 1.2.1 removes the superseded assembly benchmark and its finite-element
-reference. The current package retains three quadrature benchmarks with 45
-diagnostic CSV files, two analysis-ready 1x engineering-validation DWG models,
-and their matching Abaqus input decks. The packaged `IGAforCAD.arx` and
-`JYH_IGAEntity.dbx` remain the 2026-08-02 Release build.
+Version 1.2.2 refreshes the complex-perforated-plate DWG and its three sets of
+quadrature diagnostics after correcting the automatic resolution and outer-loop
+classification. The other benchmark and engineering-validation data are
+unchanged. The packaged AutoCAD/ObjectARX runtime is the supplied 2026-08-03
+Release build.
 
 The complete implementation is an AutoCAD/ObjectARX C++ plug-in that depends on
 Autodesk CAD APIs and third-party numerical libraries. The Python demonstration
@@ -109,7 +109,6 @@ environment-independent open-source solver.
 ## Citation
 
 If you use this package, cite this repository. Citation metadata are provided in
-`CITATION.cff`. The version-specific DOI for version 1.2.1 is
-[`10.5281/zenodo.21759532`](https://doi.org/10.5281/zenodo.21759532). The
-version-independent Zenodo concept DOI is
+`CITATION.cff`. Version 1.2.2 is archived through the linked GitHub-Zenodo
+release integration. The version-independent Zenodo concept DOI is
 [`10.5281/zenodo.20775314`](https://doi.org/10.5281/zenodo.20775314).

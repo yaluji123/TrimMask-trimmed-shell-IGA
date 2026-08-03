@@ -15,7 +15,7 @@ Typical strategies are:
 - `severity_aware`: severity-aware rule assignment with explicit fallback
   checks.
 
-Version 1.2.1 contains five CSV files for every benchmark/strategy combination,
+Version 1.2.2 contains five CSV files for every benchmark/strategy combination,
 for a total of 45 files across three benchmarks and three strategies.
 
 ## Common CSV files
@@ -82,7 +82,7 @@ DWG files are the native inputs used by the AutoCAD/ObjectARX implementation.
 IGES files are geometry exchange exports intended for inspection in external CAD
 tools.
 
-The version 1.2.1 engineering-validation DWG files are:
+The version 1.2.2 engineering-validation DWG files are:
 
 - `perforated_stiffened_plate_1x_displacement_controlled.dwg`: 1x IGA model
   with the prescribed end displacement stored in the DWG;

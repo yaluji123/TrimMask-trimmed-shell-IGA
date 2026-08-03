@@ -1,2 +1,2 @@
 strategy,trimMode,quadGaussN,subCellDivGlobal,triGaussNGlobal,elemTotal,elemIn,elemCut,elemOut,policySubcell,policyTriangle,policyFallback,standardQuadraturePoints,subCellCandidatePoints,subCellAcceptedPoints,triangleIntegrationPoints,candidateQuadraturePoints,activeQuadraturePoints,activeCandidateQuadratureRatio,activeAreaConsistencyError,pressureResultantRelativeError,lineLoadResultantRelativeError,pressureRejectionRatio,lineLoadRejectionRatio,couplingAcceptanceRatio,trimClassifyMs,trimClipTriMs,trimTotalMs
-subcell-mask,0,4,5,7,100,46,54,0,54,0,0,736,21600,18945,0,22336,19681,0.881134,0.000614534,0,0,0,0,0,10.759,0,1104.21
+subcell-mask,0,4,6,7,1296,1149,98,49,98,0,0,18384,56448,35541,0,74832,53925,0.720614,0.000433773,0,0,0,0,0,13.385,0,2071.97

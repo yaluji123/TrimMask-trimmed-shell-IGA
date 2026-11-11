@@ -1,0 +1,1437 @@
+{
+  "version": "2.0.0-oe-r1-rc1",
+  "policy": "Only current reader-useful figures/data/methods, reviewer-relevant scientific controls and the qualified runtime. No complete development/capture archive.",
+  "files": [
+    {
+      "file": "ACTUAL_MESH_AND_SAMPLE_INDEX.json",
+      "bytes": 15317,
+      "sha256": "6a81ac1b1b7d6a9dfd64e64f64eeb37f09436687bf206fecbedac5ec6da3a951",
+      "purpose": "Authorship/rights or exact current mesh/canvas metadata",
+      "origin": "ACTUAL_MESH_AND_SAMPLE_INDEX.json"
+    },
+    {
+      "file": "CITATION.cff",
+      "bytes": 1039,
+      "sha256": "d2443c6da77bf618458043b294897996ca748473c10cf90e64e60986445ea43c",
+      "purpose": "Authorship/rights or exact current mesh/canvas metadata",
+      "origin": "CITATION.cff"
+    },
+    {
+      "file": "current_figures/F1/F1.pdf",
+      "bytes": 72713,
+      "sha256": "2dbb7608f8a20cf6ee0393d7c92129caf9e55d866ca9d50e29fc2506ac205134",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F1/F1.pdf"
+    },
+    {
+      "file": "current_figures/F1/F1.png",
+      "bytes": 468662,
+      "sha256": "dd30accaadc4a82b7c5e075d33fac380e7142bb74fae9d6660d268367e107701",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F1/F1.png"
+    },
+    {
+      "file": "current_figures/F2/F2a.pdf",
+      "bytes": 27839,
+      "sha256": "385bca2c2e32c333a111524007a93a83a45dc975d666ec281ced3d28a1bdbbfe",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2a.pdf"
+    },
+    {
+      "file": "current_figures/F2/F2a.png",
+      "bytes": 124231,
+      "sha256": "fe2f5b3254d94580762232687672de3fa3e9a9d4b508529200776af50e18fe7e",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2a.png"
+    },
+    {
+      "file": "current_figures/F2/F2b.pdf",
+      "bytes": 159601,
+      "sha256": "c748192d070d613ea9fefb4289b88a05bd93e3695f98b2a4f84e431e2d4e96b4",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2b.pdf"
+    },
+    {
+      "file": "current_figures/F2/F2b.png",
+      "bytes": 286321,
+      "sha256": "e3b6241ac94b367fd90ca085abca47324b047635955cd7362787fa1616606b55",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2b.png"
+    },
+    {
+      "file": "current_figures/F3/F3a.pdf",
+      "bytes": 23484,
+      "sha256": "af3b6823a0788dcf6e497caab32b258528987bf593b9333f89e5976daf02a9e5",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3a.pdf"
+    },
+    {
+      "file": "current_figures/F3/F3a.png",
+      "bytes": 84450,
+      "sha256": "355fdbd0e089beb191cadb30110391e06540b3049614a363524d232f2d9abcc9",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3a.png"
+    },
+    {
+      "file": "current_figures/F3/F3b.pdf",
+      "bytes": 32803,
+      "sha256": "0c90eeabed429957c635a6e226313121db9bca17ae716ee217ec9d7e58d0e6e0",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3b.pdf"
+    },
+    {
+      "file": "current_figures/F3/F3b.png",
+      "bytes": 137188,
+      "sha256": "0041204d160b51bd941116788a20e9765701fe332b0e23ad1d7fcc4ecaaaa644",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3b.png"
+    },
+    {
+      "file": "current_figures/F3/F3c.pdf",
+      "bytes": 32653,
+      "sha256": "af6d7f86a99c8eab228ea27b78dbaaf394474faf5eb0c09b9e677ca71b1fdb7a",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3c.pdf"
+    },
+    {
+      "file": "current_figures/F3/F3c.png",
+      "bytes": 140856,
+      "sha256": "e08c4262c1b4ffaaad37bf8522d51439e919493349934294f813138a018bc276",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3c.png"
+    },
+    {
+      "file": "current_figures/F3/F3d.pdf",
+      "bytes": 31596,
+      "sha256": "19e8f7bbe4f41ff6a5fe6368343b21012308dffa99f6a8d18b15b180f6d28b46",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3d.pdf"
+    },
+    {
+      "file": "current_figures/F3/F3d.png",
+      "bytes": 112140,
+      "sha256": "8b7934a0d8f5c50a9360ecd564717d923dc8010c8a0520249d383b9a9d4d5374",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3d.png"
+    },
+    {
+      "file": "current_figures/F3/F3e.pdf",
+      "bytes": 31360,
+      "sha256": "9f7750bbb35f3a4dc16501d7d56db1157d48748034ceeb555aefbeb204238f16",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3e.pdf"
+    },
+    {
+      "file": "current_figures/F3/F3e.png",
+      "bytes": 111705,
+      "sha256": "004a355e210f69d62a77daa46cf181882e90353ff0a4d28e3bee7431867039b3",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3e.png"
+    },
+    {
+      "file": "current_figures/F3/F3f.pdf",
+      "bytes": 29316,
+      "sha256": "b6d7150e08e5897f7e82d8d5634668e6fde02fe0834098eb7a354bd541c4ec2d",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3f.pdf"
+    },
+    {
+      "file": "current_figures/F3/F3f.png",
+      "bytes": 97269,
+      "sha256": "c77ae80451a3d24806cc02c3d4ab11e644b1a973997f757687b62ec2c6f0356f",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3f.png"
+    },
+    {
+      "file": "current_figures/F3/F3g.pdf",
+      "bytes": 28743,
+      "sha256": "3666caf07f4f605a359ae1a188e07318cb584d157efdd44a537e353ae1be25f6",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3g.pdf"
+    },
+    {
+      "file": "current_figures/F3/F3g.png",
+      "bytes": 97366,
+      "sha256": "eabe2924af60e5f6c71296a4b6e4a1f32083ec37ea760aacb7cdae6c10ccbc11",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F3/F3g.png"
+    },
+    {
+      "file": "current_figures/F4/F4a.pdf",
+      "bytes": 33152,
+      "sha256": "14127b6e190a19a3e808d0ca812ea57f0a93516d70bafb998d21880280916654",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F4/F4a.pdf"
+    },
+    {
+      "file": "current_figures/F4/F4a.png",
+      "bytes": 132832,
+      "sha256": "d74d20c08d3b627a772d547f4867776d70f4c84feb125315d1f0d89c7eaaf20c",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F4/F4a.png"
+    },
+    {
+      "file": "current_figures/F4/F4b.pdf",
+      "bytes": 32560,
+      "sha256": "36240a25f96e07d93a1e69c9e93a725ddc7f1d954baa9749185143a3f07912aa",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F4/F4b.pdf"
+    },
+    {
+      "file": "current_figures/F4/F4b.png",
+      "bytes": 117618,
+      "sha256": "e236b7e154bb6f66a71799a033da0ce6a5f7681475cf0532214c146d2034759a",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F4/F4b.png"
+    },
+    {
+      "file": "current_figures/F5/F5c.pdf",
+      "bytes": 43713,
+      "sha256": "abcd5d8b741cf107e982cf0eabf1351ee6ee63c970761f0fd08189633ac1066f",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F5/F5c.pdf"
+    },
+    {
+      "file": "current_figures/F5/F5c.png",
+      "bytes": 97947,
+      "sha256": "f1a93c5e48041f78de6e64d4d0d437db14bfe9de3869885e00b0de77f491ac4a",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F5/F5c.png"
+    },
+    {
+      "file": "current_figures/F6/F6a.pdf",
+      "bytes": 44206,
+      "sha256": "a06a7223c026b43bdf798185196bced983aa6d718a637658fefaa58136648c00",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F6/F6a.pdf"
+    },
+    {
+      "file": "current_figures/F6/F6a.png",
+      "bytes": 126127,
+      "sha256": "3a3cd978eeee8c5e07933fd960ea15898f903e246f363c0c189defec7280813d",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F6/F6a.png"
+    },
+    {
+      "file": "current_figures/S1/S1.pdf",
+      "bytes": 29987,
+      "sha256": "e6167840e2fb0be4684114b562fe434a21b82c18631e0b6abaaac66d216685cf",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S1/S1.pdf"
+    },
+    {
+      "file": "current_figures/S1/S1.png",
+      "bytes": 106400,
+      "sha256": "577fe5cf12f0f94ed898df858fe7799c800806f5252acf619f772a49281af14f",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S1/S1.png"
+    },
+    {
+      "file": "current_figures/S2/S2a.pdf",
+      "bytes": 30104,
+      "sha256": "5b8d4c2dcbd3efee61fc121e586450d2b4e971e4358ff68c0d150e91b036f9ba",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S2/S2a.pdf"
+    },
+    {
+      "file": "current_figures/S2/S2a.png",
+      "bytes": 87181,
+      "sha256": "56bba8603f1f3188cbe457d8dc4eb837add12f2622122730e7124d229fb7265a",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S2/S2a.png"
+    },
+    {
+      "file": "current_figures/S2/S2b.pdf",
+      "bytes": 25795,
+      "sha256": "6179d892b823a1cff47aec7780fb2c8fd288a54622a34ca8ee32dbd9fbfc60a7",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S2/S2b.pdf"
+    },
+    {
+      "file": "current_figures/S2/S2b.png",
+      "bytes": 67824,
+      "sha256": "f42163ed37feda7b3f6ecd7c4d2f84da367f96e97410c6defb2afa3665ac8bbe",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S2/S2b.png"
+    },
+    {
+      "file": "current_figures/S2/S2c.pdf",
+      "bytes": 25270,
+      "sha256": "c4ddcfb15aa018f4000af99e26e1b2c477a9a136d53f45dade2be42d65c0de4e",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S2/S2c.pdf"
+    },
+    {
+      "file": "current_figures/S2/S2c.png",
+      "bytes": 64563,
+      "sha256": "6e06d8974d57975a457afed0e1682c4a77d29d5f8f6e9b903d8aa171f9c6664c",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S2/S2c.png"
+    },
+    {
+      "file": "current_figures/S3/S3a.pdf",
+      "bytes": 36205,
+      "sha256": "edf626a1973b0bcc2c11e9d5422db26780330daf88102f97d302b6e6bacf30dd",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3a.pdf"
+    },
+    {
+      "file": "current_figures/S3/S3a.png",
+      "bytes": 147312,
+      "sha256": "b91b4578e2fb283f4db21f7f82c2c67c845d9542723ce501b22e33b0bcad496e",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3a.png"
+    },
+    {
+      "file": "current_figures/S3/S3b.pdf",
+      "bytes": 35851,
+      "sha256": "1171d79b17824b4ac214ba7262c563fbb5e78775c9ec1af5e4a12eece092d74d",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3b.pdf"
+    },
+    {
+      "file": "current_figures/S3/S3b.png",
+      "bytes": 144856,
+      "sha256": "ff6492a4ca569eba661d74190bae34aa6ed75edb1e863bec955d9873a47842d7",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3b.png"
+    },
+    {
+      "file": "current_figures/S3/S3c.pdf",
+      "bytes": 35540,
+      "sha256": "c1318e59720a8f1c7e42ac5353f70a20cec7ea2f03c410b8197171547a5fa02f",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3c.pdf"
+    },
+    {
+      "file": "current_figures/S3/S3c.png",
+      "bytes": 152121,
+      "sha256": "56f3b37baa5010f33c8b6be3b677637f4208c51aa495e10cea86b11a3681beca",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3c.png"
+    },
+    {
+      "file": "current_figures/S3/S3d.pdf",
+      "bytes": 35435,
+      "sha256": "304af3d19d70abd328a133bc54fa45bc0bc4095739f54aaab04bd560a4c73e18",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3d.pdf"
+    },
+    {
+      "file": "current_figures/S3/S3d.png",
+      "bytes": 111050,
+      "sha256": "272d7fdd590801342f53c5698a39a2cae8d17408e980b8b5e1cbf4e6fca976a0",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/S3/S3d.png"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 795,
+      "sha256": "f1cafabee4944b7da9072e5b0a92a3d1088a53447e982d0dd05ec49d1c456351",
+      "purpose": "Authorship/rights or exact current mesh/canvas metadata",
+      "origin": "LICENSE"
+    },
+    {
+      "file": "plotting/export_minmax_v2.py",
+      "bytes": 22622,
+      "sha256": "b2aa107decb8a9909d100b323729e4c3ccd1103d62afbb32b492e8c207435b5f",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/export_minmax_v2.py"
+    },
+    {
+      "file": "plotting/export_minmax_v3.py",
+      "bytes": 23587,
+      "sha256": "42ca71207f87b6829cf4fc2561c6f02fa7a9097765be4ebbe3d3ca178f0209e9",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/export_minmax_v3.py"
+    },
+    {
+      "file": "plotting/export_minmax_v4.py",
+      "bytes": 23797,
+      "sha256": "f13bc8ae66a0920ec2e2321f8cbc09dfc5b92060cc36767685132cf0395bfe12",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/export_minmax_v4.py"
+    },
+    {
+      "file": "plotting/export_native_singlepanel.py",
+      "bytes": 19808,
+      "sha256": "1cc0d7a21b2eedcde156dfeeaebfc2d3253c76f91bd4defe915cb41a029af38b",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/export_native_singlepanel.py"
+    },
+    {
+      "file": "plotting/export_si_singlepanel.py",
+      "bytes": 9236,
+      "sha256": "4b2f6c29f9eea40ede69f459a0af08e47845f4a835b4c0e9fa8053ce47e7ce1d",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/export_si_singlepanel.py"
+    },
+    {
+      "file": "plotting/F1_source/F1.vsdx",
+      "bytes": 13787,
+      "sha256": "292e1f664e696631bcaeb32d2596d252b6a0fe281c8254f1e10f4dfceb80d3da",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/F1_source/F1.vsdx"
+    },
+    {
+      "file": "plotting/F1_source/F1_SOURCE_AND_STYLE.json",
+      "bytes": 3592,
+      "sha256": "a7efcecacc2388d6b1e246e533a88cd56307573083035e934238235ba0c484df",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/F1_source/F1_SOURCE_AND_STYLE.json"
+    },
+    {
+      "file": "plotting/F1_source/README.md",
+      "bytes": 505,
+      "sha256": "ee284bdd3a77f153c194c2a31daedf36827285e37a52cc20b9176740493b78db",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/F1_source/README.md"
+    },
+    {
+      "file": "plotting/requirements-plotting.txt",
+      "bytes": 61,
+      "sha256": "a2c998af912f37b0fe037c63adf4d6472b3336d97880e004025d36721b382199",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/requirements-plotting.txt"
+    },
+    {
+      "file": "plotting/resource_guard.py",
+      "bytes": 4382,
+      "sha256": "837ab5e8caab3828bc7777a6beb24e6a0f631de99897d3b3a98531617305b6a6",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/resource_guard.py"
+    },
+    {
+      "file": "plotting/SI_SINGLEPANEL_INPUTS_v1.json",
+      "bytes": 1705,
+      "sha256": "89fd5f90517da41dde617477d6270c2509fdb0bed3542c0794dc6818b4e8dd21",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/SI_SINGLEPANEL_INPUTS_v1.json"
+    },
+    {
+      "file": "plotting/SINGLEPANEL_INPUTS.json",
+      "bytes": 10605,
+      "sha256": "c06482a8c1952a0e8cdfbc95e988a6eed4be65791ff62ab40e49798f79e2a430",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/SINGLEPANEL_INPUTS.json"
+    },
+    {
+      "file": "plotting/true_mesh_helpers.py",
+      "bytes": 6983,
+      "sha256": "7b8529f095c03ac20051d02d7d9fa3261619687097851e306eee110a36d924c3",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/true_mesh_helpers.py"
+    },
+    {
+      "file": "plotting/true_mesh_helpers_v2.py",
+      "bytes": 8231,
+      "sha256": "700c791a4a7f0a1d6588b93acbabcebde64a12f3ac8a725b362f23990a5aeffe",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/true_mesh_helpers_v2.py"
+    },
+    {
+      "file": "current_figures/F2/F2c.pdf",
+      "bytes": 59845,
+      "sha256": "bc4889b2f2101c6799dbfb684e8b7d0032b16a50b05e20ad91d69561ce86af4d",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2c.pdf"
+    },
+    {
+      "file": "current_figures/F2/F2c.png",
+      "bytes": 160666,
+      "sha256": "8c7e2183de724ca05fce7ea5dd46c289198fd1346465c6d5bf8fa1dadca9b18c",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2c.png"
+    },
+    {
+      "file": "current_figures/F2/F2d.pdf",
+      "bytes": 59800,
+      "sha256": "e20b468f1a90bbc1053d1d63f84330ca087a0dde83d908031f365649553ab80b",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2d.pdf"
+    },
+    {
+      "file": "current_figures/F2/F2d.png",
+      "bytes": 159942,
+      "sha256": "1c38b7899029deef0bd708a318fe027275b8ec63a38c582de7d50034232b9d9a",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F2/F2d.png"
+    },
+    {
+      "file": "current_figures/F5/F5a.pdf",
+      "bytes": 36996,
+      "sha256": "4b0fdbc2c40c868c40aa4539f37d157f3ddd3c16bbe3a5d9cee0daee2b0bc952",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F5/F5a.pdf"
+    },
+    {
+      "file": "current_figures/F5/F5a.png",
+      "bytes": 83396,
+      "sha256": "25e80a827d5bc3f43f2e4c406dd087940e525d2a281648ee31526bc5569beccf",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F5/F5a.png"
+    },
+    {
+      "file": "current_figures/F5/F5b.pdf",
+      "bytes": 35524,
+      "sha256": "ac050ceff9fb89d708b6c20a102ca3ccf7e3aa976ce07fe4ca9addfafe6e94d1",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F5/F5b.pdf"
+    },
+    {
+      "file": "current_figures/F5/F5b.png",
+      "bytes": 81799,
+      "sha256": "1472e7fed6af77cf20d2a72f0cb08d6e522a7ea683d924892d973f321e480b72",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F5/F5b.png"
+    },
+    {
+      "file": "current_figures/F6/F6b.pdf",
+      "bytes": 45339,
+      "sha256": "f68bd79b82cd1046d76620200bbfb3627ce2b6cf92b1510af0006948e5f8eceb",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F6/F6b.pdf"
+    },
+    {
+      "file": "current_figures/F6/F6b.png",
+      "bytes": 208590,
+      "sha256": "fefbdc506810b40d2a5a19dd3f098bde9cebbaf03efd7c6989519f5a28f8cecb",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F6/F6b.png"
+    },
+    {
+      "file": "current_figures/F7/F7a.pdf",
+      "bytes": 460215,
+      "sha256": "6715c148abb5b35ac84ba52cbc8c124242dc872842051eda2775e64c1a0cfb62",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7a.pdf"
+    },
+    {
+      "file": "current_figures/F7/F7a.png",
+      "bytes": 500645,
+      "sha256": "60091072cec16f636aba9d9e111bae89fcb66dd686115958b17e96ca86f3253d",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7a.png"
+    },
+    {
+      "file": "current_figures/F7/F7b.pdf",
+      "bytes": 1231293,
+      "sha256": "f4883e29922ef260ebecb231c15bdfda1fddd5838d6aa922bf3f55b6a07babd2",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7b.pdf"
+    },
+    {
+      "file": "current_figures/F7/F7b.png",
+      "bytes": 1117196,
+      "sha256": "0d207b5e779b5a39f31ca03cf6f209e26023b0759dd3625bc71fc09363a51ee3",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7b.png"
+    },
+    {
+      "file": "current_figures/F7/F7c.pdf",
+      "bytes": 236959,
+      "sha256": "5a21c7bacebca1ebe3ecec3960a188e021a0e6c7b06b5ff0ebaa40e865c1b008",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7c.pdf"
+    },
+    {
+      "file": "current_figures/F7/F7c.png",
+      "bytes": 360818,
+      "sha256": "5fbc5edf02871ff69427810c5eb632c4408fc4b31a80dc3b81f47ecb61a4ed93",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7c.png"
+    },
+    {
+      "file": "current_figures/F7/F7d.pdf",
+      "bytes": 461364,
+      "sha256": "f725cc6597171d24a8700f324a291bf7502b9c6ff625415f3e37000570a1f212",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7d.pdf"
+    },
+    {
+      "file": "current_figures/F7/F7d.png",
+      "bytes": 596325,
+      "sha256": "3f7a49ec72f8fc895948cbb075fe4f0a43d99c13b072f2279608b24530095c41",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7d.png"
+    },
+    {
+      "file": "data/validation_plots/F7delta/F7delta.pdf",
+      "bytes": 247370,
+      "sha256": "41a7de0ee57cdd81adcb6da3d49160ea4bc582a30c3db1fce098129c5809d920",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "data/validation_plots/F7delta/F7delta.pdf"
+    },
+    {
+      "file": "data/validation_plots/F7delta/F7delta.png",
+      "bytes": 356353,
+      "sha256": "cc54a451a617fa164f7d0090bba23613bdde7aa540428f689a1758acfa1d1b54",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "data/validation_plots/F7delta/F7delta.png"
+    },
+    {
+      "file": "current_figures/F7/F7e.pdf",
+      "bytes": 217317,
+      "sha256": "abfa375a6aee1223f485c388a69f948ebfb6d4970260e9d3f567fed333696d10",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7e.pdf"
+    },
+    {
+      "file": "current_figures/F7/F7e.png",
+      "bytes": 355698,
+      "sha256": "2501b3891ba8aa7483bf70a757cbd709b89eb32d11dcdae19543172bc8fd00b8",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7e.png"
+    },
+    {
+      "file": "current_figures/F7/F7f.pdf",
+      "bytes": 454301,
+      "sha256": "f900bbf734f5f28f6dc2e77ddf6deade677075724a25a68e003315da1f7d4e1d",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7f.pdf"
+    },
+    {
+      "file": "current_figures/F7/F7f.png",
+      "bytes": 617606,
+      "sha256": "9e3b11f90c4f52849a11de284f6dcb8d8f39c42810450f10603854977f78c152",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F7/F7f.png"
+    },
+    {
+      "file": "current_figures/F8/F8a.pdf",
+      "bytes": 529437,
+      "sha256": "8199928b17f5242d10ab7e0aefde8138e1d61beedfae7db6a86e97f3dc94d67f",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8a.pdf"
+    },
+    {
+      "file": "current_figures/F8/F8a.png",
+      "bytes": 591904,
+      "sha256": "c8f1a910b204a529957b9c5b8bc7e0d8c5e5da293e174a5459aa5be4e5485ca2",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8a.png"
+    },
+    {
+      "file": "current_figures/F8/F8b.pdf",
+      "bytes": 1091231,
+      "sha256": "13de07230902080866c3be01b6274752445aa13e8e6e7d081adede2541f2379d",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8b.pdf"
+    },
+    {
+      "file": "current_figures/F8/F8b.png",
+      "bytes": 1095924,
+      "sha256": "01cf7660369b30186ac1f599b10943da00a54fef363ea435baa1956276a6e6e1",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8b.png"
+    },
+    {
+      "file": "current_figures/F8/F8c.pdf",
+      "bytes": 292277,
+      "sha256": "af81440a1d446bce30f5c745d003f6891ba7bf49aad644e5befc0d23ca4db575",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8c.pdf"
+    },
+    {
+      "file": "current_figures/F8/F8c.png",
+      "bytes": 424392,
+      "sha256": "9d39f9865df5b0cec02a3b19d6895df80946812b73cb79be8276d295deb4492c",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8c.png"
+    },
+    {
+      "file": "current_figures/F8/F8d.pdf",
+      "bytes": 536854,
+      "sha256": "8c7aa47e9d02a7af013518d829dfa61575cadca9aaad2fa7760dd73f463ae7ae",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8d.pdf"
+    },
+    {
+      "file": "current_figures/F8/F8d.png",
+      "bytes": 708212,
+      "sha256": "a323233c5fee2076a6a8ae9629b438acb509944115e78735031cfba5608bbbaf",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8d.png"
+    },
+    {
+      "file": "data/validation_plots/F8delta/F8delta.pdf",
+      "bytes": 258624,
+      "sha256": "38b8b849b0a46fd293c843347a587a9ee4c73ffca4b8f40e6248c6e457ccc589",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "data/validation_plots/F8delta/F8delta.pdf"
+    },
+    {
+      "file": "data/validation_plots/F8delta/F8delta.png",
+      "bytes": 374276,
+      "sha256": "506a9faec4fd6d9faa80c78745d9d02b809523a460cb77edb14391ae74e3561e",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "data/validation_plots/F8delta/F8delta.png"
+    },
+    {
+      "file": "current_figures/F8/F8e.pdf",
+      "bytes": 254618,
+      "sha256": "f2d5b1364dbddf21595f2b8f717671a2518c3f3abb6f429aa9dc1deef5e50221",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8e.pdf"
+    },
+    {
+      "file": "current_figures/F8/F8e.png",
+      "bytes": 406897,
+      "sha256": "d2c163dc6990186b0dddcee61054a91687c897642c6ca183f7ef710d49f15120",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8e.png"
+    },
+    {
+      "file": "current_figures/F8/F8f.pdf",
+      "bytes": 497676,
+      "sha256": "6de23d1b13165d8235d0bbf5ccf9e40a582c6076027f99633573d93b2f48eb19",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8f.pdf"
+    },
+    {
+      "file": "current_figures/F8/F8f.png",
+      "bytes": 688336,
+      "sha256": "eec31e9ac6a3f17ee64d42a8282ed7016b32d4dd784a7a9b4eaa95b05da4680c",
+      "purpose": "Current separate figure panel or reviewer difference plot",
+      "origin": "current_figures/F8/F8f.png"
+    },
+    {
+      "file": "plotting/export_six_decimal_no_foot_v5.py",
+      "bytes": 23763,
+      "sha256": "eacbb5bc079bad00704f642e440289103f9ad05a692f8a24609f307a3b19041c",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/export_six_decimal_no_foot_v5.py"
+    },
+    {
+      "file": "plotting/EXACT_PANEL_RENDER_ROUTES.json",
+      "bytes": 2299,
+      "sha256": "d839b5f543277d553dbe94da8114e71b0452c698d5f82222fbb3ae011df62268",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/EXACT_PANEL_RENDER_ROUTES.json"
+    },
+    {
+      "file": "plotting/PLOT_INPUTS.json",
+      "bytes": 23249,
+      "sha256": "2cab9cd8027146d50811957e035a8e6757875a09ae0e2f9b670853fc63123c90",
+      "purpose": "Current plotting route, required helper/configuration, or editable Figure1 source",
+      "origin": "plotting/PLOT_INPUTS.json"
+    },
+    {
+      "file": "CANVAS_TRIM_MANIFEST.json",
+      "bytes": 45113,
+      "sha256": "6d4f709107c7e5e1698cd8458e47f86020875693df06e4128a345e77b93b3bc6",
+      "purpose": "Authorship/rights or exact current mesh/canvas metadata",
+      "origin": "CANVAS_TRIM_MANIFEST.json"
+    },
+    {
+      "file": "PLOT_INPUT_CATALOG.json",
+      "bytes": 18570,
+      "sha256": "3c0e1e7d1275f69b73b5cfaf74e5909afd20a111007dd5b3ba714c60d4b57b16",
+      "purpose": "83 complete unchanged plot inputs and their units/provenance",
+      "origin": "PLOT_INPUT_CATALOG.json"
+    },
+    {
+      "file": "data/tables/Table8_candidate.csv",
+      "bytes": 21802,
+      "sha256": "e9c3bd5d1981c8649d86f27c35fe63a70e2d518bb58584375b7559caa3861a8f",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/current_engineering_data_v3/Table8_candidate.csv"
+    },
+    {
+      "file": "data/tables/alllevels.csv",
+      "bytes": 2311902,
+      "sha256": "c3191d40632c7ed5fa8d686e8fc2c813700ddde01704101ce199dda249e2c223",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/current_engineering_data_v3/alllevels.csv"
+    },
+    {
+      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all16_fixed_FEM_peak_retained_PATCH2_vectors.csv",
+      "bytes": 2989,
+      "sha256": "7ba6715f46d5478059b1d287dc8ef5956702e995f0dc632b14a5d611764c2723",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/exact_source_copies/HISTORICAL_REFERENCE_NATIVE_all16_fixed_FEM_peak_retained_PATCH2_vectors.csv"
+    },
+    {
+      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all16_graph_h_observations.csv",
+      "bytes": 2335,
+      "sha256": "ce997fe9f98f93a2e27b9441eefa738ae0f8dc3a697ceaf8859a5c578a2927c3",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/exact_source_copies/HISTORICAL_REFERENCE_NATIVE_all16_graph_h_observations.csv"
+    },
+    {
+      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all48_owner_same_Gamma_vectors.csv",
+      "bytes": 7474,
+      "sha256": "649a703a388acf001d00825729ff01f0124207c0f6e0c4710a2ead1e907e584a",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/exact_source_copies/HISTORICAL_REFERENCE_NATIVE_all48_owner_same_Gamma_vectors.csv"
+    },
+    {
+      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all_graph_only_complete_finite_physical_weak_duals.csv",
+      "bytes": 1608,
+      "sha256": "75467b159fac97269e80926781caf675dbd4ed73ad15b7f12357287f8a4827c2",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/exact_source_copies/HISTORICAL_REFERENCE_NATIVE_all_graph_only_complete_finite_physical_weak_duals.csv"
+    },
+    {
+      "file": "data/tables/Figure3_all16_metrics_and_raw_strong.csv",
+      "bytes": 9168,
+      "sha256": "89d69d2c8f0e0e02ea26a1d94df10e4e5ce093078a03ab495d462dee17916b0c",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/Figure3_all16_metrics_and_raw_strong.csv"
+    },
+    {
+      "file": "data/tables/Figure3_all16_retained_PATCH2_FEM_peak_vectors.csv",
+      "bytes": 5889,
+      "sha256": "5a9712077fdb72ae428f78d0ab97795579ecf2d706cb010ca4816419e5b75565",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/Figure3_all16_retained_PATCH2_FEM_peak_vectors.csv"
+    },
+    {
+      "file": "data/tables/Figure3_all48_common_Gamma_vectors.csv",
+      "bytes": 13265,
+      "sha256": "3262fc9131562b5fe5fec299bded7b00da847e4ece211a34d05e16b6ec5fbb8c",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/Figure3_all48_common_Gamma_vectors.csv"
+    },
+    {
+      "file": "data/tables/Figure3_all48_pair_jumps_including_unselected.csv",
+      "bytes": 13508,
+      "sha256": "2c940a0a0822383358b3e34a8d7322f3e77be2bc9bdf4f86bbd8f3f684bd48f5",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/Figure3_all48_pair_jumps_including_unselected.csv"
+    },
+    {
+      "file": "data/tables/Table4_all_four_graphs_actual_4x_mechanics_matchedKL.csv",
+      "bytes": 3050,
+      "sha256": "97c94e5f3647cf10dd529175a2dc0743508a14e8b05ee3f9f07ec8074f7fc57b",
+      "purpose": "Current engineering/interface table data; historical controls retain their explicit filename",
+      "origin": "new_analysis/Figure3_Table4_matchedKL_actual_v2/figure_outputs/Table4_all_four_graphs_actual_4x_mechanics_matchedKL.csv"
+    },
+    {
+      "file": "data/tables/all_nine_accuracy_and_work.csv",
+      "bytes": 17603,
+      "sha256": "345fae7a2cfc8946cea1416a8951dd52729d5d5e10dbf148ec64b56afc76341b",
+      "purpose": "Original qualified accuracy/work or interleaved timing observations retained by the revision",
+      "origin": "baseline90f/tables/Table6/all_nine_accuracy_and_work.csv"
+    },
+    {
+      "file": "data/tables/all_timing_statistics_original.csv",
+      "bytes": 2157,
+      "sha256": "a5a5303f5a49c838c962f51ce59d710b8da5ea74d7f42ccc2e74e513b1182aec",
+      "purpose": "Original qualified accuracy/work or interleaved timing observations retained by the revision",
+      "origin": "baseline90f/tables/Table7/all_timing_statistics_original.csv"
+    },
+    {
+      "file": "FIGURE_TABLE_INDEX.json",
+      "bytes": 34820,
+      "sha256": "a2824402923706687c37641155b3e5e2ba368c0e10f16a3d7eec0e7689d85909",
+      "purpose": "Direct entry points for current figures and table evidence",
+      "origin": "Curated from frozen current figure/table index"
+    },
+    {
+      "file": "validation/geometry_mms_01.zip",
+      "bytes": 9309896,
+      "sha256": "bb1b678c2b2e66c6b84477bc4221a7248b429c0f55e4f79fa54dcb8cbea9ed03",
+      "purpose": "Independent scientific evidence and method references for geometry_mms; original PASS/FAIL and finite-reference limits retained",
+      "members": 103
+    },
+    {
+      "file": "validation/interfaces_01.zip",
+      "bytes": 30135037,
+      "sha256": "a61b19fc4cbef63559bb8a1fe1a8a5e05762b4bf9ecbbfd01419b8df7669f10e",
+      "purpose": "Independent scientific evidence and method references for interfaces; original PASS/FAIL and finite-reference limits retained",
+      "members": 305
+    },
+    {
+      "file": "validation/engineering_01.zip",
+      "bytes": 37074489,
+      "sha256": "f0999f6312ffc3670f9bf3d48a13eeced9a4c813b74189b4d6039a965f78f86b",
+      "purpose": "Independent scientific evidence and method references for engineering; original PASS/FAIL and finite-reference limits retained",
+      "members": 36
+    },
+    {
+      "file": "validation/mapping_01.zip",
+      "bytes": 8456977,
+      "sha256": "94aae9afe94834fe88b3fe452f43ec3d3dc0a26c0b344b099d7d4ffdbecd16ef",
+      "purpose": "Independent scientific evidence and method references for mapping; original PASS/FAIL and finite-reference limits retained",
+      "members": 208
+    },
+    {
+      "file": "data/cad_models.zip",
+      "bytes": 3555993,
+      "sha256": "afd4a84634ac244f2ae0690f6dab965cdfc08c7d9b96405ffe8ede558a9f125c",
+      "purpose": "Five byte-exact native models required by current runtime recipes; includes all recorded model hashes",
+      "members": 5
+    },
+    {
+      "file": "data/CAD_MODELS.json",
+      "bytes": 944,
+      "sha256": "ac395bf02dc00ff70d6543d2f683bc39c92114f7c214efd951089c926568cd6d",
+      "purpose": "Actual native input model identities",
+      "origin": "Verified against runtime recipes"
+    },
+    {
+      "file": ".gitattributes",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 71,
+      "sha256": "f38a78ab8f67392aa9dc5572b8e53eec6da23896217bd37326335b01bb2c8ed6"
+    },
+    {
+      "file": ".gitignore",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 112,
+      "sha256": "2e48698efc721d46c566582ecf99ca1917e0267ddefadf73ba74ee2c3edde00b"
+    },
+    {
+      "file": ".zenodo.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2007,
+      "sha256": "6554c017387ebad4d97a008a80b160be4e1476bc2f2ca5d5945cd494606d89c6"
+    },
+    {
+      "file": "DATA_SCHEMA.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 1892,
+      "sha256": "9b21c63b9f54ddb7e8acb199a58ce0bd82ac748cbbf51e0b202b98da31ac162f"
+    },
+    {
+      "file": "docs/plotting.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 1690,
+      "sha256": "244f8785091de369f6dd4f0f6f0947464977b3e73e36eba0bb5b0fa2d73ddeac"
+    },
+    {
+      "file": "docs/runtime.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 1769,
+      "sha256": "771c4f8bf10762f61bc86852404d8b3e07d30b770733403db48e5fd252a7c0bd"
+    },
+    {
+      "file": "docs/validation.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2071,
+      "sha256": "dd3fd296a0361a4ee41ab06bb657086f1c074a0dcb78eb150c1586960f5eeefd"
+    },
+    {
+      "file": "prepare_data.py",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2829,
+      "sha256": "7de9f56e5e9e1fef159f82af0fdf81f22013250149a078449daeb45b323caaa2"
+    },
+    {
+      "file": "README.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 3818,
+      "sha256": "b6eec4c46a4009797b9810fbc221870bcaff6637563c8e8f75cf3aba959a236c"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 622,
+      "sha256": "647a14e3428ed1f7b2feb409f60d063620bc2d0baf1a6b301435d2408c0e633e"
+    },
+    {
+      "file": "data/plot_inputs_01.zip",
+      "bytes": 23263164,
+      "sha256": "6183ff751f288c83509a3ce1b974a842e58e6882743e81dd2f6ad536b955ce4a",
+      "members": 11,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "data/plot_inputs_01.zip",
+        "data/plot_inputs_02.zip"
+      ]
+    },
+    {
+      "file": "data/plot_inputs_02.zip",
+      "bytes": 31466138,
+      "sha256": "3ff804c21317c212104ff588b280c772dd44dd54e859dbceb7ac0d3154e15319",
+      "members": 41,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "data/plot_inputs_01.zip",
+        "data/plot_inputs_02.zip"
+      ]
+    },
+    {
+      "file": "data/plot_inputs_03.zip",
+      "bytes": 24900726,
+      "sha256": "9450e41f809dffed0d7a76df0af6e947d63ef072e53706d9590655f811d825f3",
+      "members": 28,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "data/plot_inputs_01.zip",
+        "data/plot_inputs_02.zip"
+      ]
+    },
+    {
+      "file": "data/plot_inputs_04.zip",
+      "bytes": 17954030,
+      "sha256": "5e47a357ef1c30f8a91c48ed1553e2d6c6699223286daae876f41201a87af75f",
+      "members": 1,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "data/plot_inputs_01.zip",
+        "data/plot_inputs_02.zip"
+      ]
+    },
+    {
+      "file": "data/plot_inputs_05.zip",
+      "bytes": 17650121,
+      "sha256": "6a6baeb6963f7840334afda8d901dc4aee6f41ffbc2ebb6b265a1838ebf046fd",
+      "members": 2,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "data/plot_inputs_01.zip",
+        "data/plot_inputs_02.zip"
+      ]
+    },
+    {
+      "file": "data/plot_inputs_06.zip",
+      "bytes": 37959034,
+      "sha256": "75ee5af1ee395503ea571244a76e4154a248606c8e6b77b0c07e58637b53f6b2",
+      "members": 1,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "data/plot_inputs_01.zip",
+        "data/plot_inputs_02.zip"
+      ],
+      "compression": "Standard ZIP_BZIP2, supported by the supplied Python unpacker; all complete original member bytes preserved"
+    },
+    {
+      "file": "data/plot_inputs_07.zip",
+      "bytes": 322435,
+      "sha256": "762aee86986d6c6f8b9e691c88f13b81b07f13b7b878f0431e525e4ab276e50e",
+      "members": 7,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "data/plot_inputs_01.zip",
+        "data/plot_inputs_02.zip"
+      ]
+    },
+    {
+      "file": "validation/quadrature_01.zip",
+      "bytes": 26473771,
+      "sha256": "e38484040cb691908aab12e7d941a33680718e9909ea44a4b707658bf6db28ca",
+      "members": 7,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "validation/quadrature_timing_01.zip"
+      ]
+    },
+    {
+      "file": "validation/quadrature_02.zip",
+      "bytes": 17761082,
+      "sha256": "7e52a6cdb22e9805f855af7e0dfac7c8d09490b95da110c5bf1e16009004684a",
+      "members": 7,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "validation/quadrature_timing_01.zip"
+      ]
+    },
+    {
+      "file": "validation/quadrature_03.zip",
+      "bytes": 34570441,
+      "sha256": "f7cc4983a0377b1caf9a4c2c95b483206ef210895f01c4efa8378e7aa5e4b0be",
+      "members": 4,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "validation/quadrature_timing_01.zip"
+      ]
+    },
+    {
+      "file": "validation/quadrature_04.zip",
+      "bytes": 4255229,
+      "sha256": "22e0161dd2fe21b33370ccf06c33c144b905580b871146fc937ea97880db06c5",
+      "members": 32,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "validation/quadrature_timing_01.zip"
+      ]
+    },
+    {
+      "file": "plugin/runtime_01.zip",
+      "bytes": 18772586,
+      "sha256": "ddae350b828809955c5673275edc04a2222148b192aedccb074f3611f565c90f",
+      "members": 24,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "plugin/current_AutoCAD2025_CoreConsole.zip"
+      ]
+    },
+    {
+      "file": "plugin/runtime_02.zip",
+      "bytes": 16315339,
+      "sha256": "ef12697a05876547601e9494f70857ef658075e5c31879f0447ba271f138b772",
+      "members": 1,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "plugin/current_AutoCAD2025_CoreConsole.zip"
+      ]
+    },
+    {
+      "file": "plugin/runtime_03.zip",
+      "bytes": 27313498,
+      "sha256": "732fbf31cdd84bd2178eff34ca9fd529b0bcffdb581f36deb1175aa765a6cd6c",
+      "members": 1,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "plugin/current_AutoCAD2025_CoreConsole.zip"
+      ]
+    },
+    {
+      "file": "plugin/runtime_04.zip",
+      "bytes": 23365423,
+      "sha256": "7b60df50bc400fd426cce09fad3980c792be412df50422cfbd35bf77b4d1d39d",
+      "members": 18,
+      "purpose": "Complete original named files in small ordinary ZIPs; no file is fragmented",
+      "source_archives": [
+        "plugin/current_AutoCAD2025_CoreConsole.zip"
+      ]
+    },
+    {
+      "file": "data/cad/dwg/Complex perforated plate.dwg",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 341511,
+      "sha256": "96478f849637db80e7ca03dbf5900e6878db8c77cd69aec84a7661e6abd9bc23"
+    },
+    {
+      "file": "data/cad/dwg/hull_girder_segment_1x.dwg",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 1210625,
+      "sha256": "c0bf2856a175986263cfefd40f7d434c96e6dc9a55b5439721b7b3153f0fd466"
+    },
+    {
+      "file": "data/cad/dwg/perforated_stiffened_plate_1x_displacement_controlled.dwg",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 1511221,
+      "sha256": "d77d03506e0a18e27f65a6d63aee6271f7440c87074cb551dd17c859dc23ad80"
+    },
+    {
+      "file": "data/cad/dwg/triangle_line.dwg",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 74375,
+      "sha256": "e29cfdf6a1ebf88277c5d74c00b52b7668e55e586e2e70014f9f23ee3f3e0703"
+    },
+    {
+      "file": "data/cad/iges/Complex perforated plate.iges",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 278154,
+      "sha256": "628302fc151a635b487a7c68d19ed264f0650595ce7fc4b3bedf59fa2385b875"
+    },
+    {
+      "file": "data/cad/iges/triangle_line.iges",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 14418,
+      "sha256": "25cce42e3cfa3300ee4a7f724464bb8e376601a599e53e7477c66803808fc03c"
+    },
+    {
+      "file": "data/cad/profiles/final90f_hull_mode4_1x_v1.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 4009,
+      "sha256": "517b70c1b4f12550ff1c95c44c690cd4c4a7ac23ff2d3043ccf74d2db7b54a9d"
+    },
+    {
+      "file": "data/cad/profiles/final90f_panel_mode4_1x_v1.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 4009,
+      "sha256": "517b70c1b4f12550ff1c95c44c690cd4c4a7ac23ff2d3043ccf74d2db7b54a9d"
+    },
+    {
+      "file": "data/cad/profiles/final90f_public98_auto_clipper7_v1.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 3987,
+      "sha256": "af5f0d54d491ef933398d92680e778027c17dca3620efb6e61dc30e0a9d7f843"
+    },
+    {
+      "file": "data/cad/profiles/final90f_triangle_ear7_h1_v1.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 3973,
+      "sha256": "9ee64fcb86115254928bf0fda3bdad8000e5df4efff174535abb9709a4224317"
+    },
+    {
+      "file": "data/cad/README.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 699,
+      "sha256": "a8cefa02813f548627a2daa3e0a04a8c7f2d35802b9416814b00fa447e591678"
+    },
+    {
+      "file": "data/fem/abaqus/README.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 766,
+      "sha256": "906182930ad2d30c98bf4e0d72c0e6b0318daab636d48f6a6eb6a8a12d8aa84a"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_subcell/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 12524,
+      "sha256": "b539556d5e16da15e8a050e9e57d78b99ffa6d59f8a383b1c66a3a81778cddea"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_subcell/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 691,
+      "sha256": "594562e0af31d929fb2e7c84f94895fc7ab295e45a0bd58eb605c51af24552f9"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_subcell/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 354,
+      "sha256": "02d806e040047ed1b7a19fd7debfb7c21251c70149ca182eb473a5f7f8805acb"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_subcell/trim_resolution_advisor.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 752,
+      "sha256": "215cf4bee36c44a0399c3be1e2b6f8fe9804acc12af1a709a0f046df944bfea5"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_subcell/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2146,
+      "sha256": "b757ab588146c7453c157593008a816f234c594a5f99be0cd60a96fbc19f3a38"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_triangle/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 15018,
+      "sha256": "f3e0549a4bf32917d6f585d8a3977ed607991013b43dc7fde762a5c6e4f3a05b"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_triangle/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 682,
+      "sha256": "9434544d4d1a4fbb05b9dd3a3215b47fe083e80a2d69db493345480a4e3d5846"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_triangle/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 354,
+      "sha256": "02d806e040047ed1b7a19fd7debfb7c21251c70149ca182eb473a5f7f8805acb"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_triangle/trim_resolution_advisor.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 752,
+      "sha256": "215cf4bee36c44a0399c3be1e2b6f8fe9804acc12af1a709a0f046df944bfea5"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/fixed_triangle/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2127,
+      "sha256": "3cbec7543ea7ef2f45b59af6c2c71d682e3234874e85777c3c8e21575f95ee8c"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/severity_aware/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 15211,
+      "sha256": "a990c362f85188fd7a8c16d58349e3354a4fdc607d15d850152174f1979f65a0"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/severity_aware/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 682,
+      "sha256": "c9656be873634f0c48daec059b41e1f3163854aee32bcf418161317000175925"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/severity_aware/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 354,
+      "sha256": "02d806e040047ed1b7a19fd7debfb7c21251c70149ca182eb473a5f7f8805acb"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/severity_aware/trim_resolution_advisor.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 752,
+      "sha256": "215cf4bee36c44a0399c3be1e2b6f8fe9804acc12af1a709a0f046df944bfea5"
+    },
+    {
+      "file": "data/trim_diagnostics/Complex perforated plate/severity_aware/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2114,
+      "sha256": "8aa69446633a7286727f44b6e8fb8561a938fdf6c7b25a687eb6e1e9e1b5b3b2"
+    },
+    {
+      "file": "data/trim_diagnostics/README.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 987,
+      "sha256": "b6dfdab91a38688d4ab339349c70afddbdf06613d01977081b7460a6bef81160"
+    },
+    {
+      "file": "data/trim_diagnostics/strategy_and_timing_controls.zip",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 97897,
+      "sha256": "c45a4805abd01c0933804fc20c261bb81582e8245ecc203ca5e57030b47adf01"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h16_v1/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 94034,
+      "sha256": "248da6966e436bda0dfa404eb907b9cf7ad339a2539f8e45cd92f81657ec2d8c"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h16_v1/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 691,
+      "sha256": "3b5cd8032309f803e67d9fa7300176d5eea1f034ae1e3667d31e807e7acfc44e"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h16_v1/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 354,
+      "sha256": "14e236a24c602d303275a232c8d904e38430824bdc5541a4aa6b70c035b7ac09"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h16_v1/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2135,
+      "sha256": "c81e51facf419c5dc5289b0bea192edf92f8b565c42fffc53231df11fa4a02f4"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h1_v1/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 5051,
+      "sha256": "d71317e08bd77cfe7309b264bd5cabc1a927bf89a9624fe376b0edb4eda6911d"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h1_v1/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 626,
+      "sha256": "62a266292ce7d675676673aacc4a916ccc13a8ccfbb4f5cb19a69c916e8a4bcc"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h1_v1/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 354,
+      "sha256": "9cdd33e519d37839a55959ec3469814fbb50c3fde4f649c8a5ab14f530c56f61"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h1_v1/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2060,
+      "sha256": "89c18671c1277b4312e49c95fc60fc0b2ad9663acdcd5e370fc33f57a7e6d292"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h2_v1/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 10574,
+      "sha256": "d8c324ff96bae398705493e182c2510a053d7c4fd59f32fede77ee94d4b674c5"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h2_v1/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 680,
+      "sha256": "29c0a85951e926ff4e8876fc4e1021ee992b077498f370b13ed69e48fbdd745e"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h2_v1/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 352,
+      "sha256": "eb85acac8930eb1a579cb410caf6c3d8d4d992b807a8d99b24ec73bd52e492ba"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h2_v1/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2098,
+      "sha256": "141a07a17d003d56bcd230e73bb75c85ffb50e09b6cc34d30d0f03d64e71f0a5"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h4_v1/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 22174,
+      "sha256": "ae224a5672e4f530a3309aa553336214255a64e7796eb11e076f9b940572dc44"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h4_v1/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 660,
+      "sha256": "156f7124ef817dda2559bc94fb0e2d9129ae0ed238b8d76625d5d439aa009335"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h4_v1/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 354,
+      "sha256": "11a5925cda8129722c29a732ef300ff0db6392f380cb0dadfb747ee8a0a9b638"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h4_v1/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2099,
+      "sha256": "8ceae43782bd153e29202e9ca727427dac97f8cbaea75161f4c6b4e098e36484"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h8_v1/trim_cell_diagnostics.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 45806,
+      "sha256": "9cdc2afa8246920e6293d758dfee3470f140166a0b32075a4e47d84ba4bc5a36"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h8_v1/trim_experiment_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 686,
+      "sha256": "9c03580904c372ffcbc12ab03d216ee951c9db080a7cb9dc2ba201bb8f0575cc"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h8_v1/trim_operator_consistency.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 354,
+      "sha256": "b04a30f8a93486cd6965da536f0c6a35edf569ad0fb659fecf407d598ddb82bd"
+    },
+    {
+      "file": "data/trim_diagnostics/triangle_line/final90f_triangle_ear7_h8_v1/trim_summary.csv",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 2129,
+      "sha256": "b8d4a89a71a3cff849553d78a59f6ce8bc5fecb3be36f1f91189f157ec474e35"
+    },
+    {
+      "file": "plugin/AutoCAD_2025_Release_x64/README.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 431,
+      "sha256": "f1c32cade3393f30b538fc9b82e97e1b97038e8fc728b57b0f0c8bc342fdc133"
+    },
+    {
+      "file": "plugin/RUNTIME_BYTE_PROVENANCE.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 5471,
+      "sha256": "74ee8545530e384fa2715f6df801b86c2f5c3b4ebfaee4f8eeafa14e0e001201"
+    },
+    {
+      "file": "RELEASE_MIGRATION.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 16274,
+      "sha256": "3591fa3b995ce3703f9c228750d2bc205143520b1e67a24d31209046bef2f1f2"
+    },
+    {
+      "file": "validation/current_public9_all_failed_and_passed_gates.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 580420,
+      "sha256": "2b620d3ad131bd9999624bcff182ecc79fa07b4500f491a6407219b24d7307db"
+    },
+    {
+      "file": "validation/FAILED_PUBLIC_H3_CSV_TRUEPOINT_DIAGNOSTIC_v1.json",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 11112,
+      "sha256": "96b42acb09dcc1263f9f467dbc6a9a8c9f6ae72b9fb11f6db4ae2532e11d3ec8"
+    },
+    {
+      "file": "docs/environment.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 266,
+      "sha256": "6adc814e6fce16cd62f62d0ef615961482f50498dff78bd4a8f8c041639e6f87"
+    },
+    {
+      "file": "docs/reproducibility.md",
+      "purpose": "Reader instructions, metadata or safe extraction/identity checking",
+      "bytes": 345,
+      "sha256": "2f243b19bac54cb45d5ddff325472f83d7d80d72c61a7f2acd1144ae99db5df7"
+    }
+  ],
+  "all83_plot_inputs_unchanged": true,
+  "current_native_model_recipes_closed": true,
+  "omitted": [
+    "21 duplicate native ODB containers",
+    "Whole core and legacy raw archives",
+    "Five full solver-capture archives",
+    "Intermediate canvases, duplicate TIFFs, obsolete plot versions, build symbols and authoring/private process history"
+  ],
+  "scientific_scope": "Frozen observations and method references. No solver rerun or newly claimed global relocation replay. Strong-flux and local-stress limitations retained. Legacy workspace conventions in validation method references do not promise turnkey execution."
+}

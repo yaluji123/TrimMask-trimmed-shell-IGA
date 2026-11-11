@@ -1,0 +1,541 @@
+{
+  "status": "EXISTING_ACTUAL_RENDER_METADATA_NOT_NEW_MESH_SOLVE",
+  "meshes": [
+    {
+      "family_role": "hull_native",
+      "role": "actual_registered_trim_knot_spans",
+      "segments": 46816,
+      "counts": [
+        {
+          "owner": 1197,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 753,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1198,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 753,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1199,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 172,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1200,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 172,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1201,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 220,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1202,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 172,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1203,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 172,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1204,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 172,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1205,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 172,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1206,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 220,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1207,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1208,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 172,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1209,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1210,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1211,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1212,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1213,
+          "controls": 189,
+          "knot_u": 25,
+          "knot_v": 5,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1214,
+          "controls": 26569,
+          "knot_u": 161,
+          "knot_v": 161,
+          "trimmed_segments": 33170,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1215,
+          "controls": 1881,
+          "knot_u": 97,
+          "knot_v": 17,
+          "trimmed_segments": 2992,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1216,
+          "controls": 1881,
+          "knot_u": 97,
+          "knot_v": 17,
+          "trimmed_segments": 2992,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1217,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1176,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1218,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1152,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 1219,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1176,
+          "all_registered_trim_retained": true
+        }
+      ],
+      "NPZ_SHA": "4c98fbb8cb9dd2ee54858952eb401a958e5225689dec8ecab6fd12963a46d7d3",
+      "metadata": "plotting/geometry_cache/hull_native.json",
+      "layer": "Panel IGA4x / Hull opening-three-owner local16x; STRI65 h2 references",
+      "native_control_count": 39051
+    },
+    {
+      "family_role": "hull_reference",
+      "role": "actual_complete_STRI65_h2_mesh",
+      "segments": 1588744,
+      "counts": {
+        "nodes": 1059257,
+        "elements": 529488,
+        "unique_T6_edges": 794372,
+        "complete_mesh": true,
+        "coordinate_merging": false
+      },
+      "NPZ_SHA": "70663805d943ef50c3f59c32b02d85a55b3bc28758d4460b50504aedb759fc60",
+      "metadata": "plotting/geometry_cache/hull_reference.json",
+      "layer": "Panel IGA4x / Hull opening-three-owner local16x; STRI65 h2 references",
+      "native_control_count": null
+    },
+    {
+      "family_role": "panel_native",
+      "role": "actual_registered_trim_knot_spans",
+      "segments": 44348,
+      "counts": [
+        {
+          "owner": 812,
+          "controls": 945,
+          "knot_u": 25,
+          "knot_v": 33,
+          "trimmed_segments": 1549,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 813,
+          "controls": 189,
+          "knot_u": 5,
+          "knot_v": 25,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 814,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1200,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 815,
+          "controls": 189,
+          "knot_u": 5,
+          "knot_v": 25,
+          "trimmed_segments": 192,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 816,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1200,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 817,
+          "controls": 189,
+          "knot_u": 5,
+          "knot_v": 25,
+          "trimmed_segments": 192,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 818,
+          "controls": 189,
+          "knot_u": 5,
+          "knot_v": 25,
+          "trimmed_segments": 168,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 819,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1176,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 820,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1176,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 821,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1176,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 822,
+          "controls": 189,
+          "knot_u": 5,
+          "knot_v": 25,
+          "trimmed_segments": 220,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 823,
+          "controls": 189,
+          "knot_u": 5,
+          "knot_v": 25,
+          "trimmed_segments": 216,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 824,
+          "controls": 189,
+          "knot_u": 5,
+          "knot_v": 25,
+          "trimmed_segments": 216,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 825,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1176,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 826,
+          "controls": 945,
+          "knot_u": 25,
+          "knot_v": 33,
+          "trimmed_segments": 1581,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 827,
+          "controls": 945,
+          "knot_u": 25,
+          "knot_v": 33,
+          "trimmed_segments": 1572,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 828,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1176,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 829,
+          "controls": 945,
+          "knot_u": 25,
+          "knot_v": 33,
+          "trimmed_segments": 1540,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 830,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1200,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 831,
+          "controls": 729,
+          "knot_u": 25,
+          "knot_v": 25,
+          "trimmed_segments": 1200,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 832,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1610,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 833,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1633,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 834,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1627,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 835,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1581,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 836,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1598,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 837,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1598,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 838,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1632,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 839,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1677,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 840,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1677,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 841,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1638,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 842,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1638,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 843,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1638,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 844,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1638,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 845,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1605,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 846,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1626,
+          "all_registered_trim_retained": true
+        },
+        {
+          "owner": 847,
+          "controls": 1849,
+          "knot_u": 41,
+          "knot_v": 41,
+          "trimmed_segments": 1638,
+          "all_registered_trim_retained": true
+        }
+      ],
+      "NPZ_SHA": "267d824b84be98a394d7c78c602d7b33b078ecd83e6c4cf0629d9c356b93cf58",
+      "metadata": "plotting/geometry_cache/panel_native.json",
+      "layer": "Panel IGA4x / Hull opening-three-owner local16x; STRI65 h2 references",
+      "native_control_count": 41248
+    },
+    {
+      "family_role": "panel_reference",
+      "role": "actual_complete_STRI65_h2_mesh",
+      "segments": 370584,
+      "counts": {
+        "nodes": 247312,
+        "elements": 123272,
+        "unique_T6_edges": 185292,
+        "complete_mesh": true,
+        "coordinate_merging": false
+      },
+      "NPZ_SHA": "afd03eb1e989f54436766649eebdf46ec99cef4a6578d25d2e2aed43a37784fe",
+      "metadata": "plotting/geometry_cache/panel_reference.json",
+      "layer": "Panel IGA4x / Hull opening-three-owner local16x; STRI65 h2 references",
+      "native_control_count": null
+    }
+  ],
+  "sample_sets": {
+    "triangle": "525825 fixed P2 nodes; coarse setup first IGA level and P2 N32 reference are explicitly separate from contour level",
+    "F5": "98 actually colored cut cells; grey carrier background is not assigned numerical zero",
+    "F6": "2249 true centroids, one existing IGA field",
+    "Panel": "30818 fixed centroids",
+    "Hull": "132372 fixed centroids"
+  },
+  "all_mesh_edges_retained": true,
+  "no_coordinate_welding_or_mesh_subsampling": true,
+  "wireframe_scope": "Full original mesh edges are projected as a wireframe overlay, including physically present edges behind foreground faces. These are a discretization annotation; scalar face values are unchanged."
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "file": "native_raw/curve_latest_manual_default4x_ab_root_v2/input_model.dwg",
+    "sha256": "e61b385ef49818614a8a460c1ba759b9808af1d999ea84ab183fa5737a984a6d",
+    "bytes": 1150350
+  },
+  {
+    "file": "native_raw/curve_latest_manual_uniform8x_root_v2/input_model.dwg",
+    "sha256": "365963994714ace52bfe0f5248548ebbb3ebfcd667aaa3def798794b996fceb7",
+    "bytes": 1622925
+  },
+  {
+    "file": "native_raw/curve_latest_manual_local16x_root_v1/input_model.dwg",
+    "sha256": "3342bba712cf8b1aa20948ffbdf92145d36656931b7419aa7dce53b794703ae7",
+    "bytes": 1630696
+  },
+  {
+    "file": "native_raw/curve_latest_manual_gl4_root_v1/input_model.dwg",
+    "sha256": "e61b385ef49818614a8a460c1ba759b9808af1d999ea84ab183fa5737a984a6d",
+    "bytes": 1150350
+  },
+  {
+    "file": "native_raw/new4af_panel4x_root_v1/input_model.dwg",
+    "sha256": "f87d695f623053dd09f355c559621fd62f079dfeae43c09589d442929016bee3",
+    "bytes": 2259099
+  }
+]

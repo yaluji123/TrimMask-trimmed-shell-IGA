@@ -1,10 +1,5 @@
-*.csv text eol=lf
-*.md text eol=lf
-*.cff text eol=lf
-*.inp binary
-*.txt text eol=lf
+*.zip binary
+*.pdf binary
+*.png binary
+*.vsdx binary
 *.dwg binary
-*.iges text eol=lf
-*.arx binary
-*.dbx binary
-*.dll binary

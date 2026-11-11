@@ -1,0 +1,350 @@
+{
+  "F2": {
+    "npz": {
+      "sha256": "ea05b9309b999af709d2b741e058330db10ebd2a2a71c6df0cc20a077919bd62",
+      "bytes": 32945461,
+      "path": "inputs/D004.npz"
+    },
+    "bound_manifest": {
+      "sha256": "4faebeae2c873e3faf908bfd9ba7eb34add6cc7582c9479f882822c0f5eafd47",
+      "bytes": 521337,
+      "provenance_basename": "ROOT_BOUND_TRIANGLE_FIGURE2_INPUTS.json",
+      "not_a_final_render_dependency": true
+    },
+    "current_field_node_count": 525825,
+    "P2_cells": 262144,
+    "display_triangles": 1048576,
+    "limits_mm": [
+      0,
+      0.363
+    ],
+    "coarse_P2_npz": {
+      "bytes": 61097,
+      "sha256": "80d54e0be0aece36030ef403a7747c0391462c5c8e3f1ab428bd6f4e66358d74",
+      "path": "inputs/D003.npz"
+    }
+  },
+  "F3": {
+    "metrics": {
+      "sha256": "89d69d2c8f0e0e02ea26a1d94df10e4e5ce093078a03ab495d462dee17916b0c",
+      "bytes": 9168,
+      "path": "inputs/D077.csv"
+    },
+    "patches_from_original_source": [
+      [
+        "P1",
+        [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            60.0,
+            0.0
+          ],
+          [
+            0.0,
+            60.0,
+            0.0
+          ]
+        ],
+        "#56B4E9"
+      ],
+      [
+        "P2",
+        [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            60.0
+          ],
+          [
+            0.0,
+            0.0,
+            60.0
+          ]
+        ],
+        "#E69F00"
+      ],
+      [
+        "P3",
+        [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            -42.0,
+            42.0
+          ],
+          [
+            0.0,
+            -42.0,
+            42.0
+          ]
+        ],
+        "#009E73"
+      ]
+    ]
+  },
+  "F4": {
+    "table": {
+      "sha256": "ac09b005642fcf3a4d07535089f65afff0a22fa9bc730e1e2a2ba38679d05d40",
+      "bytes": 1796274,
+      "path": "inputs/D078.csv"
+    }
+  },
+  "F5_F6": {
+    "geometry": {
+      "sha256": "19fbf71b05130aedc741d5117f2cab829bfd09f2ec7be185ba099a1089d89b5b",
+      "bytes": 297027,
+      "path": "inputs/D005.json"
+    },
+    "cut": {
+      "sha256": "a990c362f85188fd7a8c16d58349e3354a4fdc607d15d850152174f1979f65a0",
+      "bytes": 15211,
+      "path": "inputs/D006.csv"
+    },
+    "samples": {
+      "sha256": "307f72077495f2a7dffc2456da4948ba44897dd6470bc7d8a317579665dd46ba",
+      "bytes": 1643607,
+      "path": "inputs/D007.csv"
+    },
+    "force": {
+      "sha256": "6ecc5b235dd1588b8d11d9fcb40807689b6ab76e1ccc0cccf3468b405192fb26",
+      "bytes": 31680,
+      "provenance_basename": "04_pre_boundary_force.csv",
+      "not_a_final_render_dependency": true
+    },
+    "field_limits_mm": [
+      0,
+      1.2
+    ]
+  },
+  "engineering": {
+    "panel": {
+      "triangles": {
+        "sha256": "1ecd0617c8b0ea273fbac89a7860086b9c74a6b33947c6cf2ca0419aa06e882b",
+        "bytes": 6663905,
+        "path": "inputs/D008.csv"
+      },
+      "native_fields": {
+        "sha256": "009bc851e7c9291f910050549a566affe4379287c628dc75f23dbced06ae270b",
+        "bytes": 11205107,
+        "path": "inputs/D046.csv"
+      },
+      "reference_fields": {
+        "sha256": "b6eed6fe3c1733ec0eead58e88dd463ca7913a06c127f98bbff5e698cdb2834c",
+        "bytes": 22972935,
+        "path": "inputs/D048.csv"
+      },
+      "contract": {
+        "sha256": "b7817251138a076b58d29b9a42016b20bb26104fb9a728e9b563e5c6270590b4",
+        "bytes": 3680,
+        "path": "inputs/D047.json"
+      },
+      "points": 30818,
+      "ROI_points": 78,
+      "native_case": "new4af_panel4x_root_v1",
+      "reference_is_finite_not_truth": true
+    },
+    "hull": {
+      "triangles": {
+        "sha256": "c3d1ed715cf64d8ea7c5f0f31516d6f81eee862ee7139a63278a9e46b497d140",
+        "bytes": 30686215,
+        "path": "inputs/D049.csv"
+      },
+      "native_fields": {
+        "sha256": "584025563989b03177c84690ebb64e8c8fde58a6a919a5c95f838775b051c9b1",
+        "bytes": 46797039,
+        "path": "inputs/D074.csv"
+      },
+      "reference_fields": {
+        "sha256": "1f6a093e3badad45755b1df0e449f127a4edef966e68d8523b24a07796e9e22b",
+        "bytes": 104697912,
+        "path": "inputs/D076.csv"
+      },
+      "contract": {
+        "sha256": "da8e8de7b4307c6cea12be99b774d02ef354daf398e0af274f0fe36b348210c3",
+        "bytes": 3758,
+        "path": "inputs/D075.json"
+      },
+      "points": 132372,
+      "ROI_points": 1175,
+      "native_case": "curve_latest_manual_local16x_root_v1",
+      "reference_is_finite_not_truth": true
+    }
+  },
+  "models": {
+    "F2_IGA_setup": {
+      "sha256": "4bde8f113b74696089df9df3048b88e9b54118d3304bc2e12e3f5ae729cbe0a9",
+      "bytes": 131655,
+      "provenance_basename": "I06.png",
+      "not_a_selected_render_dependency": true
+    },
+    "F2_legacy_FEM_setup": {
+      "sha256": "6fe50e919f5d5f69935a04c40b9b783b90ff0f4a1e7ff67aac17ac9479a12df8",
+      "bytes": 192870,
+      "provenance_basename": "F2_legacy_FEM_setup.png",
+      "not_a_final_render_dependency": true
+    },
+    "F7_IGA_setup": {
+      "sha256": "40acf5c9ff418f555c171439ee298628560339f441cdd733ef8ac2875de69082",
+      "bytes": 63920,
+      "provenance_basename": "F7_IGA_setup.png",
+      "not_a_final_render_dependency": true
+    },
+    "F7_reference_setup": {
+      "sha256": "c11a46e8cbc1e55ee1e3cd8f5c6e548038bb6642af60ae09fab8fbed22f3ffdd",
+      "bytes": 8784567,
+      "provenance_basename": "F7_reference_setup.png",
+      "not_a_final_render_dependency": true
+    },
+    "F8_IGA_setup": {
+      "sha256": "0f36e8164099dd014b888adb0100df6fb9b120375985814b4893f6d3a2781c2d",
+      "bytes": 95377,
+      "provenance_basename": "F8_IGA_setup.png",
+      "not_a_final_render_dependency": true
+    },
+    "F8_reference_setup": {
+      "sha256": "afcd3eeb02ec64ed4e4c374e70863df9688af7fb871155853b2dc17108ffefb8",
+      "bytes": 7059507,
+      "provenance_basename": "F8_reference_setup.png",
+      "not_a_final_render_dependency": true
+    }
+  },
+  "source_pins": {
+    "F2": {
+      "original": {
+        "sha256": "a212daf847f69af34653cf131e46826b0e58b202ade4c7e37fef4f33c7513b9a",
+        "bytes": 8535,
+        "provenance_basename": "render_triangle_abaqus.py",
+        "not_a_final_render_dependency": true
+      },
+      "snapshot": {
+        "sha256": "a212daf847f69af34653cf131e46826b0e58b202ade4c7e37fef4f33c7513b9a",
+        "bytes": 8535,
+        "provenance_basename": "F2_render_triangle_abaqus.py",
+        "not_a_final_render_dependency": true
+      }
+    },
+    "F3": {
+      "original": {
+        "sha256": "17256e2a8cfc6b29a8a31b65c0d9b76cab8930df5f0f3e88c7faff12d8c6e301",
+        "bytes": 12156,
+        "provenance_basename": "render_final16_figure3.py",
+        "not_a_final_render_dependency": true
+      },
+      "snapshot": {
+        "sha256": "17256e2a8cfc6b29a8a31b65c0d9b76cab8930df5f0f3e88c7faff12d8c6e301",
+        "bytes": 12156,
+        "provenance_basename": "F3_render_final16_figure3.py",
+        "not_a_final_render_dependency": true
+      }
+    },
+    "F3model": {
+      "original": {
+        "sha256": "8cc42b3d34c63168a08e7e666a705f15186dc3c75c9ce66b0ffa37785abe9812",
+        "bytes": 4277,
+        "provenance_basename": "make_three_patch_common_interface_figure.py",
+        "not_a_final_render_dependency": true
+      },
+      "snapshot": {
+        "sha256": "8cc42b3d34c63168a08e7e666a705f15186dc3c75c9ce66b0ffa37785abe9812",
+        "bytes": 4277,
+        "provenance_basename": "F3model_make_three_patch_common_interface_figure.py",
+        "not_a_final_render_dependency": true
+      }
+    },
+    "F4": {
+      "original": {
+        "sha256": "84b696492edbb0d70358388cfcd08e3c5a0a9ee608aba70ba4bea0548ee587cf",
+        "bytes": 17759,
+        "provenance_basename": "project_render_figure4_table5.py",
+        "not_a_final_render_dependency": true
+      },
+      "snapshot": {
+        "sha256": "84b696492edbb0d70358388cfcd08e3c5a0a9ee608aba70ba4bea0548ee587cf",
+        "bytes": 17759,
+        "provenance_basename": "F4_project_render_figure4_table5.py",
+        "not_a_final_render_dependency": true
+      }
+    },
+    "F5_F6": {
+      "original": {
+        "sha256": "e3785f3094e1b9bc3fc010dd8d3668ac7b7484b70602f014c63ab5e0d4fdc7c5",
+        "bytes": 15866,
+        "provenance_basename": "render_public_plate_abaqus.py",
+        "not_a_final_render_dependency": true
+      },
+      "snapshot": {
+        "sha256": "e3785f3094e1b9bc3fc010dd8d3668ac7b7484b70602f014c63ab5e0d4fdc7c5",
+        "bytes": 15866,
+        "provenance_basename": "F5_F6_render_public_plate_abaqus.py",
+        "not_a_final_render_dependency": true
+      }
+    },
+    "F7_F8": {
+      "original": {
+        "sha256": "fb61e923a33e5c90017ddc6183de572ecc3ae4798d3a4daf130b8f81b6289ac5",
+        "bytes": 11378,
+        "provenance_basename": "render_current_engineering.py",
+        "not_a_final_render_dependency": true
+      },
+      "snapshot": {
+        "sha256": "fb61e923a33e5c90017ddc6183de572ecc3ae4798d3a4daf130b8f81b6289ac5",
+        "bytes": 11378,
+        "provenance_basename": "F7_F8_render_current_engineering.py",
+        "not_a_final_render_dependency": true
+      }
+    },
+    "palette": {
+      "original": {
+        "sha256": "8d136221da16fcd90e43cc4898e690e07401145d7ddf15f0d8574bc7e059d230",
+        "bytes": 3910,
+        "path": "inputs/D001.py"
+      },
+      "snapshot": {
+        "sha256": "8d136221da16fcd90e43cc4898e690e07401145d7ddf15f0d8574bc7e059d230",
+        "bytes": 3910,
+        "path": "inputs/D001.py"
+      }
+    }
+  },
+  "export_policy": {
+    "only_existing_data_and_plotting": true,
+    "no_ODB_FE_Native_API_replay_physics_norm_audit": true,
+    "native_singlepanel_no_combinedPNG_crop": true,
+    "two_column_width_mm": 72,
+    "single_column_width_mm": 144,
+    "font_pt": 7.5,
+    "minimum_pt": 6.5,
+    "panel_letters_and_headings_in_Word_only": true,
+    "Abaqus_palette": "unchanged existing colormaps.py",
+    "Max_and_position_and_units_retained": true
+  }
+}

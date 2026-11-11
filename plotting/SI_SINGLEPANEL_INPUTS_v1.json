@@ -1,0 +1,50 @@
+{
+  "data": {
+    "S1": {
+      "sha256": "2053f2609f0ae91aee5ed246c16d82f47e9e3adc959b6e09822a298da661faa8",
+      "bytes": 1917,
+      "path": "inputs/D079.csv"
+    },
+    "S2": {
+      "sha256": "38b624ea831513685ec01ba004669ef2c757b75fd545ba9778559f0721e2ff05",
+      "bytes": 4414,
+      "path": "inputs/D080.csv"
+    },
+    "S3_accuracy": {
+      "sha256": "345fae7a2cfc8946cea1416a8951dd52729d5d5e10dbf148ec64b56afc76341b",
+      "bytes": 17603,
+      "path": "inputs/D081.csv"
+    },
+    "S3_times": {
+      "sha256": "f332e99f04e4657713558638d19136fe91f901d85af115164d929ca3ec70bcdd",
+      "bytes": 16365,
+      "path": "inputs/D082.csv"
+    },
+    "S3_statistics": {
+      "sha256": "a5a5303f5a49c838c962f51ce59d710b8da5ea74d7f42ccc2e74e513b1182aec",
+      "bytes": 2157,
+      "path": "inputs/D083.csv"
+    }
+  },
+  "original_renderer_sources": [
+    {
+      "source_basename": "render_public9_figures.py",
+      "sha256": "d54d76c3c6c8565dd7d59aa5ec4d06cae6615e80c040baf05050bdc0c30783cb",
+      "bytes": 14582,
+      "provenance_only_not_render_dependency": true
+    },
+    {
+      "source_basename": "plot_allgraph_weak_vs_strong.py",
+      "sha256": "98cd8a1649101213dffe8a178616d08d725563c8b781d5ee767a91b94fa77187",
+      "bytes": 16140,
+      "provenance_only_not_render_dependency": true
+    },
+    {
+      "source_basename": "plot_public_accuracy_work_timing.py",
+      "sha256": "4f7342bd061cbdbf4e412ea2fe318d5289a8b658c58d86cedab28d77fcb96e18",
+      "bytes": 22780,
+      "provenance_only_not_render_dependency": true
+    }
+  ],
+  "scope": "Only existing plot projections read; no collect/qualification/solver routines called."
+}

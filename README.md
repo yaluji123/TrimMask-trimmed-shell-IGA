@@ -1,115 +1,43 @@
-# TrimMask trimmed-shell IGA reproducibility package
+# TrimMask revision data
 
-This repository contains reproducibility materials for CAD-native trimmed-shell
-isogeometric analysis with TrimMask diagnostics. It is organized as a data and
-runtime package rather than as a standalone solver implementation.
+Current figures, numerical data, scientific validation evidence and the qualified AutoCAD2025 CoreConsole runtime for the revised trimmed-shell IGA study.
 
-The repository includes:
+Version: **2.0.0-oe-r1-rc1**. Authors: Yuheng Ji, Chuntong Li, Zhijie Dai, Chun Fang, Pengyu Wei and Deyu Wang. [All-version DOI](https://doi.org/10.5281/zenodo.20775314).
 
-- exported TrimMask diagnostic CSV files;
-- DWG and IGES geometry files for the benchmark models;
-- analysis-ready 1x DWG models and matching Abaqus input decks for the
-  engineering validation cases;
-- a packaged AutoCAD/ObjectARX Release x64 plug-in build;
-- documentation describing the runtime environment and data schema.
+## Start here
 
-## Current release
+| Need | Files |
+| --- | --- |
+| Read or reuse the final figure panels | `current_figures/`, `FIGURE_TABLE_INDEX.json` |
+| Inspect reported numerical observations | `data/tables/` |
+| Inspect displacement, full face-stress components and genuine IGA/FEM geometry | `data/plot_inputs_*.zip`, `PLOT_INPUT_CATALOG.json` |
+| Recreate a figure from the saved scientific data | `plotting/`, `docs/plotting.md` |
+| Examine reviewer-relevant scientific checks | `validation/`, `docs/validation.md` |
+| Run a recorded engineering case in the compatible licensed CAD host | `plugin/`, `data/cad_models.zip`, `docs/runtime.md` |
 
-Version 1.2.2 refreshes the complex-perforated-plate DWG and its three sets of
-quadrature diagnostics after correcting the automatic resolution and outer-loop
-classification. The other benchmark and engineering-validation data are
-unchanged. The packaged AutoCAD/ObjectARX runtime is the supplied 2026-08-03
-Release build.
+Download this version using **Code > Download ZIP**, or the release's source ZIP. The GitHub source tree includes the actual data and runtime, so the automatic Zenodo archive includes them too. Individual archives below100MiB keep the repository practical. They contain complete named files, not binary volume fragments.
 
-The complete implementation is an AutoCAD/ObjectARX C++ plug-in that depends on
-Autodesk CAD APIs and third-party numerical libraries. The Python demonstration
-code and obsolete example scripts previously stored here have been removed to
-keep the repository focused on the reproducibility materials.
+With Python3.10 or newer, run:
 
-## Repository layout
-
-```text
-data/
-  trim_diagnostics/
-    trapezoid_pressure/
-    triangle_line/
-    Complex perforated plate/
-  cad/
-    dwg/
-    iges/
-  fem/
-    abaqus/
-plugin/
-  AutoCAD_2025_Release_x64/
-docs/
-  reproducibility.md
-  environment.md
-DATA_SCHEMA.md
-CITATION.cff
-LICENSE
+```powershell
+python prepare_data.py
+python prepare_data.py --unpack
 ```
 
-## Folder contents
+The first command verifies file identities. The second also extracts the83 plotting inputs, geometry caches and five native CAD models into their required relative locations. Neither performs a simulation. A changed local input is never overwritten. See `DATA_SCHEMA.md` for units and sample definitions.
 
-`data/trim_diagnostics/` contains the exported CSV diagnostics. Each benchmark
-is divided into strategy subfolders, typically `fixed_subcell`,
-`fixed_triangle`, and `severity_aware`. The version 1.1.0 data are a consistent
-Release rerun rather than a mixture of earlier debug and release outputs.
+Use the supplied Python unpacker for all data archives. The largest complete field file uses standardZIP BZIP2 compression, which some operating-system file browsers do not support. No numeric file is truncated or divided into byte volumes.
 
-`data/cad/dwg/` contains the native DWG input models, including the 1x
-displacement-controlled perforated stiffened plate and the 1x hull-girder
-segment under torsion. `data/cad/iges/` contains exchange exports for the
-three retained benchmark geometries.
+## Scientific scope
 
-`data/fem/abaqus/` contains the Abaqus input decks for the
-displacement-controlled perforated stiffened plate and the hull-girder segment
-under torsion. The loading and boundary conditions are stored in the input decks
-rather than inferred from filenames.
+The files retain the actual source/runtime lineage of each experiment. Earlier benchmark results are not relabeled as new-runtime results. The matched-reference interface data include all16 graph/level cases and48 endpoints, including unselected comparisons. Strong force/moment residuals remain reported as approximately0.750/0.103. The local bending discrepancy and unconverged stress peaks remain visible in the engineering evidence. Finite-work/Green checks and finite-reference agreement answer their stated questions; they are not a replacement for those strong-flux or peak-convergence observations.
 
-`plugin/AutoCAD_2025_Release_x64/` contains the AutoCAD/ObjectARX plug-in
-binaries and dependent runtime libraries. The `.pdb` symbol files are not
-included because they are not required for execution and exceed ordinary
-repository file-size limits.
+The package contains frozen numerical observations, reusable plots and method references. No additional simulation or full moved-root mathematical replay was performed during publication. Historical validation method sources may retain their original workspace conventions. The supported plotting routes and runtime profiles are described separately.
 
-## Runtime requirements
+## Included and omitted
 
-`IGAforCAD.arx` and `JYH_IGAEntity.dbx` are AutoCAD/ObjectARX runtime
-extensions. They are not standalone Windows executables and must be loaded
-inside a compatible 64-bit AutoCAD installation.
+Selection follows the revised results and the scientific questions raised during review. Each distributed payload has a purpose andSHA256 in `DATA_INDEX.json`. Complete physical plotting samples, stress components, necessary negative/failed controls, actual model inputs and runtime dependencies are retained.
 
-At minimum, a reproduction machine needs:
+Redundant nativeODB containers, full solver/observer capture archives, the layered historical core, development/build records, duplicateTIFFs and pre-trim canvas masters are omitted. Previous published versions remain accessible through their original tags andDOIs. Manuscripts, reviewer comments and response letters are not part of this public dataset.
 
-1. Windows x64;
-2. AutoCAD 2025 x64, or a binary-compatible AutoCAD release if the plug-in is
-   rebuilt for that release;
-3. the supplied files in `plugin/AutoCAD_2025_Release_x64/` kept together in
-   one directory or otherwise visible on the system `PATH`;
-4. the Microsoft Visual C++ runtime components required by the Release build;
-5. AutoCAD security settings that allow loading ARX/DBX files from the plug-in
-   directory, for example a trusted path or appropriate `SECURELOAD` setting.
-
-See `docs/environment.md` for the runtime notes and `docs/reproducibility.md`
-for the intended inspection workflow.
-
-## Reproducibility scope
-
-The CSV diagnostics are the primary public data. They allow inspection of:
-
-- cut-cell classification and retained-area metrics;
-- strategy-level quadrature counts and runtimes;
-- operator-domain consistency checks for loads and coupling;
-- feature-aware analysis-resolution recommendations;
-- severity-aware rule assignment and fallback events.
-
-The packaged plug-in and CAD files support rerunning the workflow in a
-compatible AutoCAD environment. Because the implementation depends on commercial
-CAD APIs and local AutoCAD runtime state, this repository is not intended as an
-environment-independent open-source solver.
-
-## Citation
-
-If you use this package, cite this repository. Citation metadata are provided in
-`CITATION.cff`. The version-specific DOI for version 1.2.2 is
-[`10.5281/zenodo.21769163`](https://doi.org/10.5281/zenodo.21769163). The
-version-independent Zenodo concept DOI is
-[`10.5281/zenodo.20775314`](https://doi.org/10.5281/zenodo.20775314).
+Project materials remain **All rights reserved** under `LICENSE`. Runtime component notices are preserved. See `THIRD_PARTY_NOTICES.md`.

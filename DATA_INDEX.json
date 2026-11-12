@@ -1,10 +1,10 @@
 {
-  "version": "2.0.0-oe-r1-rc2",
+  "version": "2.0.0-oe-r1-rc3",
   "files": [
     {
       "file": ".zenodo.json",
       "bytes": 1654,
-      "sha256": "fc17ad3669eca31d216359e5f9ec812ef24b591f7a21c77f4f7b533aea03d9ca",
+      "sha256": "0af3bc5d480d960296b166f40dc7196f0525f8ad5bbc6a7a040269acf948a31d",
       "purpose": "Reader navigation, scientific definitions, citation or licence"
     },
     {
@@ -16,7 +16,7 @@
     {
       "file": "CITATION.cff",
       "bytes": 1039,
-      "sha256": "93a2c5895531c7fc2f459b4a4ba4299c65c13f95d51ff6957c645262f6a02822",
+      "sha256": "8c04f20eb2f99179c332434d7db8874f1f3869b9584a2b19c4b9ac5eb246e16a",
       "purpose": "Reader navigation, scientific definitions, citation or licence"
     },
     {
@@ -964,7 +964,7 @@
     {
       "file": "FIGURE_TABLE_INDEX.json",
       "bytes": 31146,
-      "sha256": "ac7bcea2e8b3f5986b959ab1473592d42e3158e734b4478f1447837e5f5603a4",
+      "sha256": "1ca98dc1358ce5a1e17f44178759b9b2d581bcec73455cb26d51833cd0d3f794",
       "purpose": "Reader navigation, scientific definitions, citation or licence"
     },
     {
@@ -1090,7 +1090,7 @@
     {
       "file": "README.md",
       "bytes": 2475,
-      "sha256": "ae1e9c5934bbc4dcc889caebdf8434fdddf9f7a821eb0ed159b1d258f8d28d0b",
+      "sha256": "51a3f3cadfb28641d204d398889feb6e6102034b85d9f2e71efd58737a059b5e",
       "purpose": "Reader navigation, scientific definitions, citation or licence"
     },
     {
@@ -1101,8 +1101,8 @@
     },
     {
       "file": "validation/current_public9_all_failed_and_passed_gates.json",
-      "bytes": 244872,
-      "sha256": "6fe129881a4cf22e6cc0ca44898ec4bbe165e161feac8e54a2c47141bbc8636a",
+      "bytes": 299393,
+      "sha256": "c774413401b4a8480741d308ce194e2c3790d80b6a4651484ea4a935250af080",
       "purpose": "Independent scientific controls, saved states, physical methods and reference inputs"
     },
     {

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: "TrimMask trimmed-shell IGA reproducibility package"
 message: "If you use this package, please cite this repository."
 type: dataset
-version: "2.0.0-oe-r1-rc2"
+version: "2.0.0-oe-r1-rc3"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20775314"

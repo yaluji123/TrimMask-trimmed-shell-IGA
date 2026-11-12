@@ -895,11 +895,11 @@
   "tables": [
     {
       "file": "data/tables/Table8_candidate.csv",
-      "sha256": "e9c3bd5d1981c8649d86f27c35fe63a70e2d518bb58584375b7559caa3861a8f"
+      "sha256": "bdcc9de6ce320eedaabc53756b6c31026ba895487d948c74da33e195731d4df6"
     },
     {
       "file": "data/tables/alllevels.csv",
-      "sha256": "c3191d40632c7ed5fa8d686e8fc2c813700ddde01704101ce199dda249e2c223"
+      "sha256": "5209007a698d0551920b6aac646265c9b0a434a71d0befde8cda7d8a4b229f96"
     },
     {
       "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all16_fixed_FEM_peak_retained_PATCH2_vectors.csv",

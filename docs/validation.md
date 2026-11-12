@@ -1,17 +1,28 @@
-# Scientific data and reference inputs
+# Independent checks and saved scientific data
 
-Use `python prepare_data.py --validation` to extract the topic archives. ZIP archives contain the named scientific files directly. Extraction does not execute a mechanics test.
+Use Python 3.10–3.12 with NumPy and SciPy for the checking entry points. NumPy 1.26.4 and SciPy 1.13.1 are the recorded analysis versions. Install dependencies in an isolated environment before extraction and checking.
 
-| Data | Purpose |
-| --- | --- |
-| `geometry_mms_01.zip` | Retained-domain moments, polynomial/energy checks, independent references, manufactured fields and calibration |
-| `interfaces_01.zip` | Matched support/reference comparisons, raw strong flux, physical work/Green ledgers and negative controls |
-| `engineering_01.zip` | Saved refinement fields and engineering vector/tensor comparisons |
-| `mapping_01.zip` | Actual mappings, accepted/final counts, model diagnostics and physical input records |
-| `quadrature_*.zip` | Span moments, integration-order response, actual coefficients and original accuracy/work/timing data |
-| `matched_reference_data.zip` | Actual0.25/0.125 reference stress captures, control nodes, IP/frame calibration, physical recovery kernel and Native16 data |
-| `reference_*.zip` | Exact matched-reference, STRI65h1 and recovery-calibration input decks |
+```powershell
+python prepare_data.py --unpack --validation
+python validation/check_reported_fields.py
+python validation/curve_inverse_regression/check_curve_inverse.py
+python validation/spectral_calibration/check_saved_calibration.py
+python validation/manufactured_field_inputs/check_saved_mms.py
+python validation/weak_residual_checks/check_saved_weak_residual.py
+python validation/green_verification_inputs/check_saved_green.py
+python validation/quadrature_verification_inputs/check_saved_inputs.py
+```
 
-The existing engineeringSTRI65h2 decks are in the plotting data asD045.inp andD073.inp. The reference input archives add theirh1 counterparts and the matched three-patch0.25/0.125 decks without duplicating theh2 files. The standalone failedh3 identity record and nine-strategy gate results retain their original scientific status.
+The field checker uses NumPy and reads the complete published arrays. It recomputes sampled displacement peaks, engineering displacement-vector and two-face tensor differences, membrane/bending stress components, the original opening-corner regions and the response-figure vector-difference maxima. It checks the original triangle area weights and retains every fixed sample. It does not solve a structural state or evaluate a new mesh.
 
-Current interface source tables include all16 graph/level cases and48 endpoint-vector records. `HISTORICAL_REFERENCE_` files are separately labeled old-reference controls. Raw strong-flux FAIL and open integration controls remain visible. Local bending and peak-stress limitations are not reclassified as passes. Numerical method references may require local path configuration; extraction does not execute any solver.
+The curve check uses the frozen 303 parameters and captured curve for the scalar Newton regression. The spectral check compares the saved 292 pencil results and 146 calibration groups with the recorded native parameters. Its default command checks the saved numerical results without repeating an eigensolve. Failed earlier spectral comparisons and the numerical controls accompany the successful saved results.
+
+Topic archives include the complete reference geometries, physical fields, calibration captures, fixed samples, matrix/work data and numerical controls described in the paper. Examples retain the source/runtime families of their recorded executions.
+
+The mathematical kernels include the affine stress recovery, bicubic Green calculation, exact cell polynomials, continuous manufactured fields, physical interface work and flat Kirchhoff–Love operators. The flat-shell basis and operator functions are standalone in `single_patch_readers_v7/math/flat_kl_operators.py` within the extracted scientific tree.
+
+Other source files document the recorded analysis methods. In `single_patch_readers_v7/math/`, the `public_geometry.py`, `public_oracle.py` and `triangle_sparse.py` run adapters use the original execution context and captured matrices. The engineering readback adapters similarly require their case context. ODB extraction sources require the Abaqus Python environment. These are method references. The commands above are the supported entry points for checking the distributed saved results.
+
+Additional scientific input tables remain in plotting/inputs/: D079.csv contains the four retained-area diagnostics, D080.csv the four-level weak/strong measures, D081.csv all nine quadrature configurations, D082.csv all nine timing observations and D083.csv the timing statistics. They retain their original numeric data independently of which illustrations appear in the manuscript or responses.
+
+The manufactured-field checks use the saved actual Native matrices and manufactured-load solutions. The finite weak-residual check uses the original saved Riesz witnesses, and the Green check verifies the saved state and directed work ledgers. The quadrature checker reads the complete original control coefficients, rule literals, saved moment values and native quadrature records. None of these default checks launches CAD, factorizes a structural system, reruns a spectral solve or changes an original field. Intermediate OPEN input packets retain their recorded status; the final four-level weak norms and saved witnesses are identified in weak_residual_checks.

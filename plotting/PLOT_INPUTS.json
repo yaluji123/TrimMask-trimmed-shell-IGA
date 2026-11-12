@@ -14,10 +14,6 @@
     "current_field_node_count": 525825,
     "P2_cells": 262144,
     "display_triangles": 1048576,
-    "limits_mm": [
-      0,
-      0.363
-    ],
     "coarse_P2_npz": {
       "bytes": 61097,
       "sha256": "80d54e0be0aece36030ef403a7747c0391462c5c8e3f1ab428bd6f4e66358d74",
@@ -139,11 +135,7 @@
       "bytes": 31680,
       "provenance_basename": "04_pre_boundary_force.csv",
       "not_a_selected_render_dependency": true
-    },
-    "field_limits_mm": [
-      0,
-      1.2
-    ]
+    }
   },
   "engineering": {
     "panel": {
@@ -161,11 +153,6 @@
         "sha256": "b6eed6fe3c1733ec0eead58e88dd463ca7913a06c127f98bbff5e698cdb2834c",
         "bytes": 22972935,
         "path": "inputs/D048.csv"
-      },
-      "contract": {
-        "sha256": "7bf2f9a11167b31181aee97e79c56446e521ef95d3ed0941d8f80d6b10066985",
-        "bytes": 2601,
-        "path": "inputs/D047.json"
       },
       "points": 30818,
       "ROI_points": 78,
@@ -187,11 +174,6 @@
         "sha256": "1f6a093e3badad45755b1df0e449f127a4edef966e68d8523b24a07796e9e22b",
         "bytes": 104697912,
         "path": "inputs/D076.csv"
-      },
-      "contract": {
-        "sha256": "d4076fc8e89f745987026a75bd3620b3ef8f029da8d90677fb67d7c514cd38b6",
-        "bytes": 2676,
-        "path": "inputs/D075.json"
       },
       "points": 132372,
       "ROI_points": 1175,
@@ -345,16 +327,11 @@
     "minimum_pt": 6.5,
     "panel_letters_and_headings_in_Word_only": true,
     "Abaqus_palette": "unchanged existing colormaps.py",
-    "Max_and_position_and_units_retained": true,
     "current_visual_policy": {
-      "colorbar_tick_format": ".6f",
-      "scalar_Min_Max_position_footer": false,
-      "model_40mm_zoom_inset": false,
-      "underlying_actual_ranges_and_samples_unchanged": true,
-      "small_positive_endpoints_may_round_to_display_zero": true,
-      "real_mesh_RP_BC_loads_preserved": true
-    },
-    "legacy_policy_strings_are_historical": true
+      "scalar_limits": "each panel actual sampled minimum and maximum",
+      "decimal_places": 6,
+      "scalar_footer": false
+    }
   },
   "true_mesh": {
     "geometries": {

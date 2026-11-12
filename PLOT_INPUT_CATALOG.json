@@ -1,8 +1,8 @@
 {
   "status": "EXACT_STANDALONE_PLOT_INPUTS",
   "original_paths": "provenance-only; operational configs use package-relative exact paths and do not follow origin strings",
-  "unique_payload_inputs": 83,
-  "unique_bytes": 389329142,
+  "unique_payload_inputs": 81,
+  "unique_bytes": 389323865,
   "rows": [
     {
       "destination": "plotting/inputs/D001.py",
@@ -235,11 +235,6 @@
       "original_filename": "fields.csv"
     },
     {
-      "destination": "plotting/inputs/D047.json",
-      "bytes": 2601,
-      "original_filename": "figure_contract.json"
-    },
-    {
       "destination": "plotting/inputs/D048.csv",
       "bytes": 22972935,
       "original_filename": "fixed_world_T6_fields.csv"
@@ -373,11 +368,6 @@
       "destination": "plotting/inputs/D074.csv",
       "bytes": 46797039,
       "original_filename": "fields.csv"
-    },
-    {
-      "destination": "plotting/inputs/D075.json",
-      "bytes": 2676,
-      "original_filename": "figure_contract.json"
     },
     {
       "destination": "plotting/inputs/D076.csv",

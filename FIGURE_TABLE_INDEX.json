@@ -632,142 +632,6 @@
       ]
     },
     {
-      "panel": "S1",
-      "editable_Word_subcaption": "(a) Retained fractions",
-      "width_mm": 144,
-      "height_mm": 61.859453102028816,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S1/S1.pdf",
-          "bytes": 29987
-        },
-        {
-          "relative_path": "current_figures/S1/S1.png",
-          "bytes": 106400
-        }
-      ]
-    },
-    {
-      "panel": "S2a",
-      "editable_Word_subcaption": "(a) Finite weak defect",
-      "width_mm": 72,
-      "height_mm": 60.43764705882353,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S2/S2a.pdf",
-          "bytes": 30104
-        },
-        {
-          "relative_path": "current_figures/S2/S2a.png",
-          "bytes": 87181
-        }
-      ]
-    },
-    {
-      "panel": "S2b",
-      "editable_Word_subcaption": "(b) Raw force residual",
-      "width_mm": 72,
-      "height_mm": 60.43764705882353,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S2/S2b.pdf",
-          "bytes": 25795
-        },
-        {
-          "relative_path": "current_figures/S2/S2b.png",
-          "bytes": 67824
-        }
-      ]
-    },
-    {
-      "panel": "S2c",
-      "editable_Word_subcaption": "(c) Raw moment residual",
-      "width_mm": 72,
-      "height_mm": 60.43764705882353,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S2/S2c.pdf",
-          "bytes": 25270
-        },
-        {
-          "relative_path": "current_figures/S2/S2c.png",
-          "bytes": 64563
-        }
-      ]
-    },
-    {
-      "panel": "S3a",
-      "editable_Word_subcaption": "(a) Displacement difference",
-      "width_mm": 72,
-      "height_mm": 88,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S3/S3a.pdf",
-          "bytes": 36205
-        },
-        {
-          "relative_path": "current_figures/S3/S3a.png",
-          "bytes": 147312
-        }
-      ]
-    },
-    {
-      "panel": "S3b",
-      "editable_Word_subcaption": "(b) Energy seminorm difference",
-      "width_mm": 72,
-      "height_mm": 88,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S3/S3b.pdf",
-          "bytes": 35851
-        },
-        {
-          "relative_path": "current_figures/S3/S3b.png",
-          "bytes": 144856
-        }
-      ]
-    },
-    {
-      "panel": "S3c",
-      "editable_Word_subcaption": "(c) Material energy difference",
-      "width_mm": 72,
-      "height_mm": 88,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S3/S3c.pdf",
-          "bytes": 35540
-        },
-        {
-          "relative_path": "current_figures/S3/S3c.png",
-          "bytes": 152121
-        }
-      ]
-    },
-    {
-      "panel": "S3d",
-      "editable_Word_subcaption": "(d) Observed timing",
-      "width_mm": 72,
-      "height_mm": 62.76705882352941,
-      "render_source": "plotting/export_si_singlepanel.py",
-      "outputs": [
-        {
-          "relative_path": "current_figures/S3/S3d.pdf",
-          "bytes": 35435
-        },
-        {
-          "relative_path": "current_figures/S3/S3d.png",
-          "bytes": 111050
-        }
-      ]
-    },
-    {
       "panel": "F7delta",
       "height_mm": 56.54117647058823,
       "limits": [
@@ -786,7 +650,10 @@
           "relative_path": "data/validation_plots/F7delta/F7delta.png",
           "bytes": 356353
         }
-      ]
+      ],
+      "document_role": "revision_response",
+      "document_figure": "Response figure R1",
+      "editable_Word_subcaption": "(a) Panel displacement-vector difference"
     },
     {
       "panel": "F8delta",
@@ -807,7 +674,10 @@
           "relative_path": "data/validation_plots/F8delta/F8delta.png",
           "bytes": 374276
         }
-      ]
+      ],
+      "document_role": "revision_response",
+      "document_figure": "Response figure R1",
+      "editable_Word_subcaption": "(b) Hull displacement-vector difference"
     }
   ],
   "tables": [

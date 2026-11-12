@@ -32,6 +32,6 @@ def main():
                 count+=1
     if args.unpack:
         catalog=json.loads((ROOT/'PLOT_INPUT_CATALOG.json').read_text(encoding='utf-8'))
-        if len(catalog['rows'])!=83 or not all(safe(ROOT,r['destination']).is_file() for r in catalog['rows']):raise ValueError('Incomplete plotting inputs')
+        if len(catalog['rows'])!=81 or not all(safe(ROOT,r['destination']).is_file() for r in catalog['rows']):raise ValueError('Incomplete plotting inputs')
     print('Extracted',count,'files. No simulation was executed.')
 if __name__=='__main__':main()

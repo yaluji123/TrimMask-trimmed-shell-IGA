@@ -1,15 +1,13 @@
-# Qualified runtime and native inputs
+# AutoCAD2025 CoreConsole cases
 
-This is the recorded AutoCAD2025 x64 **CoreConsole paper workflow**. It requires a compatible licensed CAD host. It is not a standalone executable or a claim that ordinary empty-flag GUI defaults use the same physics.
+Use a compatible licensed AutoCAD2025 x64 CoreConsole host.
 
 ```powershell
 python prepare_data.py --unpack --runtime
 ```
 
-This extracts the exact original runtime into `plugin/runtime_package/` and the five byte-exact models into `native_raw/<case>/input_model.dwg`. The large solver-captureZIPs mentioned in the original runtimeREADME are not required: their necessary model files are supplied separately here. `data/CAD_MODELS.json` verifies every model against `PAPER_REPRODUCTION_CASES.json`.
+The runtime is extracted into `plugin/runtime_package/` and the five exact engineering models into `native_raw/<case>/input_model.dwg`. Set `RUNTIME_ROOT` to the extracted runtime package and `DATA_ROOT` to the repository root. Select exactly one entry from `PAPER_REPRODUCTION_CASES.json`, use fresh `RUN_WORK`/`RUN_OUT` directories and the exact case command, DWG, complete profile and physical environment flags. Model hashes are listed in `data/CAD_MODELS.json`.
 
-Set `RUNTIME_ROOT` to the extracted runtime package and `DATA_ROOT` to the repository root. Select exactly one entry from `PAPER_REPRODUCTION_CASES.json`. Use a fresh `RUN_WORK` and `RUN_OUT`, the byte-exact input model, complete per-case environment map, actual profile and physics flags. All carried point/input qualification files are present and hash-checked against the recipes.
+Keep the eight runtime modules together. Retain the actual line-work, spectral/mapping and model-specific point-component settings and all carried inputs. Their qualification files and full profiles are bound by the case recipes and supplied unchanged. The source-default preimport scripts preserve the original profile check. KeepSECURELOAD=1 and trust the exact runtime directory.
 
-Retain the actual line-work, checked spectral/mapping and case-specific point-component flags. KeepSECURELOAD=1 and trust only the exact runtime directory. Follow the included profile preimport/module/input gates. Do not substitute another model's endpoint plan or silently replace an unknown stored profile.
-
-The runtime retains its qualified mixed component identity and separate third-party notices. Current default, uniform8x, local16x and integration-order studies have their own source/input identities. Manual4 is the recorded observed-enrichment study and carries its stated quadrature limitation. No new host or other-machine execution is certified by repackaging.
+`RUNTIME_MANIFEST.json` identifies the actual mixed module family and supported case scope. Earlier experimental results are not relabeled as new executions. The demonstrated scope is the recorded CoreConsole workflow; the standalone archive is not an independent executable. Component licence notices remain with their modules.

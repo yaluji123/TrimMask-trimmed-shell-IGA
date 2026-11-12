@@ -22,7 +22,7 @@ def main():
  a=argparse.ArgumentParser();a.add_argument('--freeze-inputs',action='store_true');a.add_argument('--panel');a.add_argument('--out',type=Path);a.add_argument('--execute-render',action='store_true');a=a.parse_args()
  if a.freeze_inputs:return freeze()
  if not a.execute_render:return print('PLAN_ONLY')
- assert a.out and not a.out.exists()and a.out.resolve().is_relative_to(R);cap=budget();cfg=json.loads((R/'SI_SINGLEPANEL_INPUTS_v1.json').read_text(encoding='utf-8'));used=[]
+ assert a.out and not a.out.exists()and a.out.resolve().is_relative_to(R);route_map=json.loads((Path(__file__).resolve().parent/'EXACT_PANEL_RENDER_ROUTES.json').read_text())['routes'];assert route_map.get(a.panel)=='plotting/'+Path(__file__).name,'Use the script selected in EXACT_PANEL_RENDER_ROUTES.json';cap=budget();cfg=json.loads((R/'SI_SINGLEPANEL_INPUTS_v1.json').read_text(encoding='utf-8'));used=[]
  def data(k):
   ref=cfg['data'][k];p=(R/Path(ref['path'])).resolve();assert p.is_relative_to(R)and sha(p)==ref['sha256']and p.stat().st_size==ref['bytes'];used.append(ref);return rows(p)
  import numpy as np,matplotlib as mpl

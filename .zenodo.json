@@ -1,8 +1,8 @@
 {
   "title": "TrimMask trimmed-shell IGA: revision data and qualified runtime",
   "upload_type": "dataset",
-  "publication_date": "2026-11-11",
-  "version": "2.0.0-oe-r1-rc1",
+  "publication_date": "2026-11-12",
+  "version": "2.0.0-oe-r1-rc2",
   "creators": [
     {
       "name": "Ji, Yuheng"
@@ -23,7 +23,7 @@
       "name": "Wang, Deyu"
     }
   ],
-  "description": "<p>Curated data and runtime supporting the revised trimmed-shell IGA study: current separate figure panels, table observations, complete displacement and face-stress fields, actual IGA/FEM geometries, five native engineering models, independent geometric/MMS/interface-work/refinement/quadrature evidence, plotting sources and the qualified AutoCAD2025 CoreConsole runtime.</p><p>Includes83 unchanged scientific plotting inputs and the complete physical flags/profiles required by the recorded runtime cases. Unfavorable strong-flux, finite-reference and stress controls retain their original status. No new numerical replay is claimed. Redundant native ODB databases, full solver-capture archives and private manuscript/authoring history are omitted.</p><p>Project materials remain All rights reserved under the repository LICENSE. Separate third-party notices accompany the runtime.</p>",
+  "description": "<p>Reader-focused data, current figures and plotting programs, independent scientific checks, exact input models and the qualified AutoCAD2025 CoreConsole runtime for the revised TrimMask study.</p><p>This version removes obsolete plotting implementations, author workflow and packing records, and supplies the matched-reference scientific inputs and recovery data required for verification. Reported numerical fields and runtime module bytes are preserved. Scientific negative controls and stated accuracy limits remain available.</p>",
   "access_right": "open",
   "license": "other-closed",
   "notes": "Publicly downloadable research data/runtime. All rights reserved: https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/blob/main/LICENSE. No new open-source grant. Separate Clipper2, Eigen and Intel notices remain with their components.",

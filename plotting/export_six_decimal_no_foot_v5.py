@@ -30,7 +30,7 @@ def budget():
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('--panel',required=True);p.add_argument('--out',type=Path);p.add_argument('--execute-render',action='store_true');a=p.parse_args()
  if not a.execute_render:print(json.dumps({'status':'PLAN_ONLY_NATIVE_SINGLEPANEL_NO_RENDER','panel':a.panel}));return
- assert a.out is not None and a.out.resolve().is_relative_to(HERE)and not a.out.exists();cap=budget();cfg=read(HERE/'PLOT_INPUTS.json');used=[]
+ assert a.out is not None and a.out.resolve().is_relative_to(HERE)and not a.out.exists();route_map=json.loads((Path(__file__).resolve().parent/'EXACT_PANEL_RENDER_ROUTES.json').read_text())['routes'];assert route_map.get(a.panel)=='plotting/'+Path(__file__).name,'Use the script selected in EXACT_PANEL_RENDER_ROUTES.json';cap=budget();cfg=read(HERE/'PLOT_INPUTS.json');used=[]
  def B(ref):q=bound(ref);used.append(ref);return q
  import numpy as np,matplotlib
  matplotlib.use('Agg');import matplotlib.pyplot as plt

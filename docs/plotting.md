@@ -1,15 +1,13 @@
-# Plotting saved results
+# Plotting saved physical data
 
-Run `python prepare_data.py --unpack` at the repository root. Install the packages in `plotting/requirements-plotting.txt` in an isolated environment. The recorded environment is Windows with Times New Roman available. Font files are not redistributed.
+Run `python prepare_data.py --unpack`, then install the versions in `plotting/requirements-plotting.txt` in an isolated environment. The recorded plotting environment is Windows with Times New Roman available; fonts are not redistributed.
 
-`plotting/EXACT_PANEL_RENDER_ROUTES.json` selects the proper script for each panel. The retained script versions correspond to different current panel routes; they are not alternative physical datasets. For example:
+`plotting/EXACT_PANEL_RENDER_ROUTES.json` selects the current script for each panel. Use a fresh output directory under `plotting/`. Example:
 
 ```powershell
 python plotting/export_six_decimal_no_foot_v5.py --panel F8e --out plotting/my_F8e --execute-render
 ```
 
-Use a fresh output directory under `plotting/`. The scripts verify input sizes/hashes and use the original resource guard. Figures are produced from all saved physical samples and actual IGA/FEM geometry, without a new solve. Each scalar panel has its own actual minimum/maximum and six-decimal labels. No extrema/location footer or model mesh inset is added. Independent inputs may produce visually close fields.
+The scripts use complete saved fields and genuine IGA/FEM discretizations. Every scalar plot has its own sampled minimum/maximum with six decimal places and the same Abaqus-style palette. Figures are separate panels. Captions are in `FIGURE_TABLE_INDEX.json`.
 
-The distributedPDF/PNG panels are the final compact-canvas versions. Rendering generates the original native canvas. `CANVAS_TRIM_MANIFEST.json` records the white-only lower-margin reduction used for publication. The redundant intermediate masters and an obsolete master-dependent replay helper are omitted. The native render and final figure therefore need not have the same canvas height or binary hash.
-
-Figure1 is an editable Visio source in `plotting/F1_source/`, with finalPDF/PNG in `current_figures/F1/`. Every multi-panel figure remains a set of separate panel files. Editable subcaption text is recorded in `FIGURE_TABLE_INDEX.json`.
+Figure1 has an editable Visio source in `plotting/F1_source/F1.vsdx`. Current numerical plotting entries are the four programs selected in the route table, with `true_mesh_helpers_v2.py` and `resource_guard.py` as required helpers.

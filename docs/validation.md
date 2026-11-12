@@ -1,6 +1,6 @@
 # Scientific data and reference inputs
 
-Use `python prepare_data.py --validation` to extract the topic archives. Each ZIP has a `MEMBERS.json` with file sizes andSHA256. The check is a file-identity check, not a new mechanics acceptance test.
+Use `python prepare_data.py --validation` to extract the topic archives. ZIP archives contain the named scientific files directly. Extraction does not execute a mechanics test.
 
 | Data | Purpose |
 | --- | --- |

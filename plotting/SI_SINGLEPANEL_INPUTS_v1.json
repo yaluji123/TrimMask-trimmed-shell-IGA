@@ -6,8 +6,8 @@
       "path": "inputs/D079.csv"
     },
     "S2": {
-      "sha256": "38b624ea831513685ec01ba004669ef2c757b75fd545ba9778559f0721e2ff05",
-      "bytes": 4414,
+      "sha256": "f0ef912dacadf56fda01bd2ff42f2e07ea5051151cb8bcfa91ca0990608f23c7",
+      "bytes": 4027,
       "path": "inputs/D080.csv"
     },
     "S3_accuracy": {

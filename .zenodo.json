@@ -1,8 +1,8 @@
 {
-  "title": "TrimMask trimmed-shell IGA: revision data and qualified runtime",
+  "title": "TrimMask trimmed-shell IGA: revision data and CoreConsole runtime",
   "upload_type": "dataset",
   "publication_date": "2026-11-12",
-  "version": "2.0.0-oe-r1-rc3",
+  "version": "2.0.0-oe-r1-rc4",
   "creators": [
     {
       "name": "Ji, Yuheng"
@@ -23,7 +23,7 @@
       "name": "Wang, Deyu"
     }
   ],
-  "description": "<p>Reader-focused data, current figures and plotting programs, independent scientific checks, exact input models and the qualified AutoCAD2025 CoreConsole runtime for the revised TrimMask study.</p><p>This version removes obsolete plotting implementations, author workflow and packing records, and supplies the matched-reference scientific inputs and recovery data required for verification. Reported numerical fields and runtime module bytes are preserved. Scientific negative controls and stated accuracy limits remain available.</p>",
+  "description": "<p>Data, current figures and plotting programs, independent scientific checks, exact input models and the AutoCAD2025 CoreConsole runtime for the revised TrimMask study.</p><p>This version removes obsolete programs, author workflow records and standalone checksum lists. Numerical fields and reported results are preserved. Distribution paths and the corresponding runtime input bindings are updated. The release module passes an isolated CoreConsole loading check. The numerical data retain their recorded experiment and runtime families.</p>",
   "access_right": "open",
   "license": "other-closed",
   "notes": "Publicly downloadable research data/runtime. All rights reserved: https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/blob/main/LICENSE. No new open-source grant. Separate Clipper2, Eigen and Intel notices remain with their components.",

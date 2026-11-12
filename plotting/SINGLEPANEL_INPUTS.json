@@ -113,8 +113,8 @@
   },
   "F4": {
     "table": {
-      "sha256": "ac09b005642fcf3a4d07535089f65afff0a22fa9bc730e1e2a2ba38679d05d40",
-      "bytes": 1796274,
+      "sha256": "46a8f07bdd76bceef6cb166e829ff828b606952cb165554e6a95fde649f2cf2a",
+      "bytes": 788011,
       "path": "inputs/D078.csv"
     }
   },
@@ -163,8 +163,8 @@
         "path": "inputs/D048.csv"
       },
       "contract": {
-        "sha256": "b7817251138a076b58d29b9a42016b20bb26104fb9a728e9b563e5c6270590b4",
-        "bytes": 3680,
+        "sha256": "7bf2f9a11167b31181aee97e79c56446e521ef95d3ed0941d8f80d6b10066985",
+        "bytes": 2601,
         "path": "inputs/D047.json"
       },
       "points": 30818,
@@ -189,8 +189,8 @@
         "path": "inputs/D076.csv"
       },
       "contract": {
-        "sha256": "da8e8de7b4307c6cea12be99b774d02ef354daf398e0af274f0fe36b348210c3",
-        "bytes": 3758,
+        "sha256": "d4076fc8e89f745987026a75bd3620b3ef8f029da8d90677fb67d7c514cd38b6",
+        "bytes": 2676,
         "path": "inputs/D075.json"
       },
       "points": 132372,

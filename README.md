@@ -2,7 +2,7 @@
 
 Data, figures, current plotting programs and the AutoCAD2025 CoreConsole runtime for the revised trimmed-shell IGA study.
 
-Version **2.0.1-oe-r1**. [Version downloads and DOI](https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/releases/tag/v2.0.1-oe-r1). Numerical inputs and recorded results derive from the [archived rc5 dataset](https://doi.org/10.5281/zenodo.24163027). [All-version DOI](https://doi.org/10.5281/zenodo.20775314).
+Version **2.0.2-oe-r1**. [Version downloads and DOI](https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/releases/tag/v2.0.2-oe-r1). Numerical inputs and recorded results derive from the [archived rc5 dataset](https://doi.org/10.5281/zenodo.24163027). [All-version DOI](https://doi.org/10.5281/zenodo.20775314).
 
 | Purpose | Files |
 | --- | --- |

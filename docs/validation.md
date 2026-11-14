@@ -30,3 +30,7 @@ The manufactured-field checks use the saved actual Native matrices and manufactu
 `data/tables/Triangle_operator_domain_identity.json` gives the recorded common-domain checks for bulk, loading and weak boundary evaluation. `Plate_feature_setting_example.json` gives one recorded feature-to-setting example. Initial-grid provenance is distinct from subsequent exact knot-insertion refinement.
 
 `P2_reference_refinement.csv` gives all five saved triangular reference levels and their adjacent increments. `STRI65_reference_energy_refinement.csv` gives the two saved engineering reference energies. These are finite-reference changes. `validation/triangle_operator_records.zip` contains the actual registered-boundary and load-chain records for the common-domain check.
+
+## Current refined-case mapping records
+
+After extraction, run `python validation/check_current_mapping.py`. The three complete point and residual tables and relation registries are in `validation/current_mapping/`. The request denominator comes from the native counter before paired mapping. `points.csv` records accepted quadrature points, and `map_residuals.csv` includes individual residual checks. Its row count is not a request count. The `scale` column in `points.csv` is the integration weight, not the characteristic length L. Relation coverage denotes visited registered relations.

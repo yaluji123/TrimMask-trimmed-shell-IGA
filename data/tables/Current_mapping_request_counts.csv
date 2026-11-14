@@ -1,0 +1,4 @@
+case,case_id,runtime_family,paired_requests,accepted_point_rows,unaccepted_requests,visited_relations,registered_relations,denominator
+panel_4x,new4af_panel4x_root_v1,4af,15696,15696,0,84,84,"requests counted before paired mapping, after relation preparation"
+hull_uniform_8x,curve_latest_manual_uniform8x_root_v2,4af,15720,15720,0,73,73,"requests counted before paired mapping, after relation preparation"
+hull_local_16x,curve_latest_manual_local16x_root_v1,4af,13812,13812,0,73,73,"requests counted before paired mapping, after relation preparation"

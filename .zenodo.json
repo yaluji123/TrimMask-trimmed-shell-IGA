@@ -1,29 +1,29 @@
 {
   "title": "TrimMask trimmed-shell IGA: revision data and CoreConsole runtime",
   "upload_type": "dataset",
-  "publication_date": "2026-11-12",
-  "version": "2.0.0-oe-r1-rc5",
+  "publication_date": "2026-11-14",
+  "version": "2.0.1-oe-r1",
   "creators": [
     {
       "name": "Ji, Yuheng"
     },
     {
-      "name": "Li, Chuntong"
+      "name": "Fang, Chun"
     },
     {
       "name": "Dai, Zhijie"
-    },
-    {
-      "name": "Fang, Chun"
     },
     {
       "name": "Wei, Pengyu"
     },
     {
       "name": "Wang, Deyu"
+    },
+    {
+      "name": "Li, Chuntong"
     }
   ],
-  "description": "<p>Inputs, saved physical fields, main-article figures, response displacement-difference panels, independent numerical methods and the AutoCAD2025 CoreConsole runtime for the revised TrimMask study.</p><p>This version completes the curve regression, spectral calibration, manufactured-field, weak-residual, Green and quadrature inputs and recorded results. Lightweight checking entry points use the distributed data. The retained physical fields, numerical tables,33 figure panels and eight runtime modules preserve their recorded values. Numerical studies retain their original execution families. Required negative controls, failed protocols and finite accuracy limits are retained.</p>",
+  "description": "<p>Model inputs, numerical fields, independent references, verification methods, manuscript figure panels and the AutoCAD2025 CoreConsole runtime for the TrimMask trimmed-shell IGA study.</p><p>The dataset supports retained-domain checks, interface work and graph comparisons, quadrature accuracy and timing, and displacement and physical-face stress comparisons. Main-text and response quantities are identified separately. Recorded numerical fields and runtime modules retain their actual execution families.</p>",
   "access_right": "open",
   "license": "other-closed",
   "notes": "Publicly downloadable research data/runtime. All rights reserved: https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/blob/main/LICENSE. No new open-source grant. Separate Clipper2, Eigen and Intel notices remain with their components.",

@@ -11,3 +11,5 @@ InterfaceCSV files preserve common-axis signs, owner/graph identifiers, all48 en
 The topic archives contain the scientific data directly. Archive extraction preserves the original numeric bytes. Historical method-source path descriptors identify provenance and may require local configuration.
 
 Engineering displacement-vector and stress-tensor differences use original triangle areas as weights and the finite-reference norm as denominator. Tensor Frobenius norms count off-diagonal components twice. Membrane and bending stresses are the half-sum and half-difference of the two physical-face tensors, both in MPa. The opening mask retains the preselected original centroids within 20 mm of the selected opening corners.
+
+`data/tables/Table8_ship_components.csv` reproduces the whole-surface quantities in manuscript Table 8. `Engineering_field_comparisons.csv` also supplies the opening-region and membrane/bending results discussed in the response. `method_id` and `method_role` distinguish the actual recorded runtime families.

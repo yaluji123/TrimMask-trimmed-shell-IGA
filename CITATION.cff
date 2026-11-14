@@ -2,7 +2,7 @@ cff-version: 1.2.0
 title: "TrimMask trimmed-shell IGA reproducibility package"
 message: "If you use this package, please cite this repository."
 type: dataset
-version: "2.0.0-oe-r1-rc5"
+version: "2.0.1-oe-r1"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20775314"
@@ -10,17 +10,17 @@ identifiers:
 authors:
   - family-names: "Ji"
     given-names: "Yuheng"
-  - family-names: "Li"
-    given-names: "Chuntong"
-  - family-names: "Dai"
-    given-names: "Zhijie"
   - family-names: "Fang"
     given-names: "Chun"
+  - family-names: "Dai"
+    given-names: "Zhijie"
   - family-names: "Wei"
     given-names: "Pengyu"
   - family-names: "Wang"
     given-names: "Deyu"
+  - family-names: "Li"
+    given-names: "Chuntong"
 abstract: "Curated revision data, complete physical plotting fields, independent scientific validation evidence and the AutoCAD2025 CoreConsole runtime for TrimMask trimmed-shell IGA."
 repository-code: "https://github.com/yaluji123/TrimMask-trimmed-shell-IGA"
 license-url: "https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/blob/main/LICENSE"
-date-released: "2026-11-12"
+date-released: "2026-11-14"

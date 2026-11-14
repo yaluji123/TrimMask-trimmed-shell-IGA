@@ -92,7 +92,6 @@ def main():
    cmap=plt.get_cmap(c.abaqus12_matplotlib_banded_colormap())
    for i,row in enumerate(cut):u0,u1,v0,v1=g['cells'][int(row['element'])]['bounds'];ax.add_patch(Rectangle((u0,v0),u1-u0,v1-v0,fc=cmap(norm(v[i]))if k<2 else'#D55E00',ec='#B0B0B0',lw=.15))
    for hole in g['hole_loops']:ax.add_patch(Polygon(hole,fc='white',ec='#333333',lw=.3))
-   for element in[555,556,591,592]:u0,u1,v0,v1=g['cells'][element]['bounds'];ax.add_patch(Rectangle((u0,v0),u1-u0,v1-v0,fc='none',ec='#C00000',lw=.9))
    ax.set(aspect='equal',xlim=(0,1),ylim=(0,1),xticks=[0,.5,1],yticks=[0,.5,1],xlabel='u',ylabel='v')
    if k<2:
     height=72;bx=fig.add_axes([.18,.18,.70,.024]);cb=fig.colorbar(plt.cm.ScalarMappable(norm=norm,cmap=c.abaqus12_matplotlib_banded_colormap()),cax=bx,orientation='horizontal');cb.set_ticks([limits[0],(limits[0]+limits[1])/2,limits[1]]);ticks=[limits[0],(limits[0]+limits[1])/2,limits[1]];cb.set_ticklabels([format(x,'.6f')for x in ticks]);record['colorbar_ticks']=ticks;record['colorbar_tick_text']=[format(x,'.6f')for x in ticks];cb.ax.tick_params(labelsize=7.5);record['limits']=limits;record['Min']=min(v);record['Max']=max(v);record['plotted_scalar_scope']='98 actual cut-cell values; other cells grey uncolored background';record['scalar_footer_removed']=True

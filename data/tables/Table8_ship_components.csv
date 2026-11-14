@@ -1,0 +1,9 @@
+case,level,structural_DOF,energy_difference_percent,displacement_vector_difference_percent,physical_face_SNEG_tensor_difference_percent,physical_face_SPOS_tensor_difference_percent,method_id,reference_id,method_role
+panel,1x,12243,0.0710667309674,0.423427559774,3.57705666178,3.58875244687,old90f_panel_1x,panel_STRI65_h2,historical_actual90f_native_not_relabelled_new9e
+panel,2x,36462,0.0473160371574,0.22570871188,2.34162106974,2.31265340595,old90f_panel_2x,panel_STRI65_h2,historical_actual90f_native_not_relabelled_new9e
+panel,4x,123744,0.0344739809904,0.110697189646,1.43638766423,1.38553525714,new4af_panel_4x,panel_STRI65_h2,current_main_figure
+hull,1x,4086,2.55094311398,4.53849464081,18.2368141748,17.6269567564,old90f_hull_1x,hull_STRI65_h2,historical_actual90f_native_not_relabelled_new9e
+hull,2x,10611,1.20149875445,1.77259571533,12.9543826222,12.7513542577,old90f_hull_2x,hull_STRI65_h2,historical_actual90f_native_not_relabelled_new9e
+hull,4x,32841,0.706469593669,1.09065466711,10.6753854396,10.0164374927,new4af_hull_default4x,hull_STRI65_h2,current_h_or_program_bridge_comparison
+hull,uniform8x,114021,0.323086087031,0.456957899736,6.79029892896,5.92283107352,new4af_hull_uniform8x,hull_STRI65_h2,current_h_or_program_bridge_comparison
+hull,opening3_local16x,117153,0.19688314668,0.370809413187,5.65245362232,5.10367697334,new4af_hull_local16x,hull_STRI65_h2,current_main_figure

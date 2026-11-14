@@ -56,7 +56,7 @@
     },
     {
       "panel": "F2c",
-      "editable_Word_subcaption": "(c) IGA 16\u00d7 displacement",
+      "editable_Word_subcaption": "(c) IGA 16× displacement",
       "width_mm": 72,
       "height_mm": 56.752941176470586,
       "limits": [
@@ -128,11 +128,11 @@
       "outputs": [
         {
           "relative_path": "current_figures/F3/F3b.pdf",
-          "bytes": 32803
+          "bytes": 33713
         },
         {
           "relative_path": "current_figures/F3/F3b.png",
-          "bytes": 137188
+          "bytes": 145184
         }
       ]
     },
@@ -146,11 +146,11 @@
       "outputs": [
         {
           "relative_path": "current_figures/F3/F3c.pdf",
-          "bytes": 32653
+          "bytes": 33538
         },
         {
           "relative_path": "current_figures/F3/F3c.png",
-          "bytes": 140856
+          "bytes": 148447
         }
       ]
     },
@@ -277,11 +277,11 @@
       "outputs": [
         {
           "relative_path": "current_figures/F5/F5a.pdf",
-          "bytes": 36996
+          "bytes": 36834
         },
         {
           "relative_path": "current_figures/F5/F5a.png",
-          "bytes": 83396
+          "bytes": 85061
         }
       ]
     },
@@ -300,11 +300,11 @@
       "outputs": [
         {
           "relative_path": "current_figures/F5/F5b.pdf",
-          "bytes": 35524
+          "bytes": 35353
         },
         {
           "relative_path": "current_figures/F5/F5b.png",
-          "bytes": 81799
+          "bytes": 83599
         }
       ]
     },
@@ -318,11 +318,11 @@
       "outputs": [
         {
           "relative_path": "current_figures/F5/F5c.pdf",
-          "bytes": 43713
+          "bytes": 43656
         },
         {
           "relative_path": "current_figures/F5/F5c.png",
-          "bytes": 97947
+          "bytes": 99440
         }
       ]
     },
@@ -369,7 +369,7 @@
     },
     {
       "panel": "F7a",
-      "editable_Word_subcaption": "(a) IGA knot mesh (4\u00d7)",
+      "editable_Word_subcaption": "(a) IGA knot mesh (4×)",
       "width_mm": 72,
       "height_mm": 62,
       "limits": null,
@@ -389,7 +389,7 @@
     },
     {
       "panel": "F7b",
-      "editable_Word_subcaption": "(b) FEM STRI65 mesh (2\u00d7)",
+      "editable_Word_subcaption": "(b) FEM STRI65 mesh (2×)",
       "width_mm": 72,
       "height_mm": 62,
       "limits": null,
@@ -409,7 +409,7 @@
     },
     {
       "panel": "F7c",
-      "editable_Word_subcaption": "(c) IGA 4\u00d7 displacement",
+      "editable_Word_subcaption": "(c) IGA 4× displacement",
       "width_mm": 72,
       "height_mm": 56.54117647058823,
       "limits": [
@@ -455,7 +455,7 @@
     },
     {
       "panel": "F7e",
-      "editable_Word_subcaption": "(e) IGA 4\u00d7 stress",
+      "editable_Word_subcaption": "(e) IGA 4× stress",
       "width_mm": 72,
       "height_mm": 56.54117647058823,
       "limits": [
@@ -521,7 +521,7 @@
     },
     {
       "panel": "F8b",
-      "editable_Word_subcaption": "(b) FEM STRI65 mesh (2\u00d7)",
+      "editable_Word_subcaption": "(b) FEM STRI65 mesh (2×)",
       "width_mm": 72,
       "height_mm": 62,
       "limits": null,
@@ -541,7 +541,7 @@
     },
     {
       "panel": "F8c",
-      "editable_Word_subcaption": "(c) IGA local 16\u00d7 displacement",
+      "editable_Word_subcaption": "(c) IGA local 16× displacement",
       "width_mm": 72,
       "height_mm": 56.54117647058823,
       "limits": [
@@ -587,7 +587,7 @@
     },
     {
       "panel": "F8e",
-      "editable_Word_subcaption": "(e) IGA local 16\u00d7 stress",
+      "editable_Word_subcaption": "(e) IGA local 16× stress",
       "width_mm": 72,
       "height_mm": 56.54117647058823,
       "limits": [
@@ -682,22 +682,15 @@
   ],
   "tables": [
     {
-      "file": "data/tables/Table8_candidate.csv"
+      "file": "data/tables/Table8_ship_components.csv",
+      "scope": "Main-text Table 8. Whole-surface energy, displacement and physical-face tensor differences."
+    },
+    {
+      "file": "data/tables/Engineering_field_comparisons.csv",
+      "scope": "Complete physical-field comparisons, including the local and component measures discussed in the reviewer response."
     },
     {
       "file": "data/tables/alllevels.csv"
-    },
-    {
-      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all16_fixed_FEM_peak_retained_PATCH2_vectors.csv"
-    },
-    {
-      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all16_graph_h_observations.csv"
-    },
-    {
-      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all48_owner_same_Gamma_vectors.csv"
-    },
-    {
-      "file": "data/tables/HISTORICAL_REFERENCE_NATIVE_all_graph_only_complete_finite_physical_weak_duals.csv"
     },
     {
       "file": "data/tables/Figure3_all16_metrics_and_raw_strong.csv"
@@ -713,6 +706,21 @@
     },
     {
       "file": "data/tables/Table4_all_four_graphs_actual_4x_mechanics_matchedKL.csv"
+    },
+    {
+      "file": "data/tables/Engineering_interface_settings.csv"
+    },
+    {
+      "file": "data/tables/P2_reference_refinement.csv"
+    },
+    {
+      "file": "data/tables/STRI65_reference_energy_refinement.csv"
+    },
+    {
+      "file": "data/tables/Triangle_operator_domain_identity.json"
+    },
+    {
+      "file": "data/tables/Plate_feature_setting_example.json"
     }
   ]
 }

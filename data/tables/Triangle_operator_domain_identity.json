@@ -1,0 +1,16 @@
+{
+  "owner": 806,
+  "boundary_entity": 820,
+  "bulk_and_apply_registry_identity_equal": true,
+  "registered_outer_equal_bulk_apply_capture": true,
+  "hole_arrays_equal_bulk_apply_capture": true,
+  "weak_boundary_outer_edge_index": 1,
+  "registered_partition_intervals": 10,
+  "registered_trace_points": 70,
+  "registered_trace_line_measure_mm": 196.92818541244674,
+  "maximum_original_curve_gap_mm": 1.8718083084894177e-08,
+  "line_load_registered_boundary_number": 1,
+  "line_load_uv_sample_count": 100,
+  "maximum_load_uv_distance_to_corresponding_registered_outer_edge": 3.788443751028286e-15,
+  "scope": "The load and clamp use different chains on the same registered retained-domain record. These are saved one-level observations, not a new ablation."
+}

@@ -109,3 +109,7 @@ $core = 'C:/Program Files/Autodesk/AutoCAD 2025/accoreconsole.exe'
 ```
 
 Stop on any load, module-path, original-profile or imported-profile mismatch. The original-profile helper admits only an absent stored profile or the exact complete source-default baseline; it does not replace an unknown stored profile silently. The imported hash is read from the actual DWG Xrecord. Keep the resulting module identity and profile gate outputs with the case outputs. The module path gate is not itself a SHA256 check of loaded binaries. The recorded numerical and source/runtime family boundaries still apply; a host exit code alone does not validate a numerical result.
+
+## Engineering interface settings
+
+`data/tables/Engineering_interface_settings.csv` records all 303 relations across the panel4x and hull4x, uniform8x and local16x cases. It gives the side mode, enabled penalty/work rows and the matched/unmatched divisor. Pure penalty refers to the line relation; geometric point-group completion is constructed separately.

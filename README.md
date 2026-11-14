@@ -2,11 +2,11 @@
 
 Data, figures, current plotting programs and the AutoCAD2025 CoreConsole runtime for the revised trimmed-shell IGA study.
 
-Version **2.0.0-oe-r1-rc5**. [Version downloads and DOI](https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/releases/tag/v2.0.0-oe-r1-rc5). [All-version DOI](https://doi.org/10.5281/zenodo.20775314).
+Version **2.0.1-oe-r1**. [Version downloads and DOI](https://github.com/yaluji123/TrimMask-trimmed-shell-IGA/releases/tag/v2.0.1-oe-r1). Numerical inputs and recorded results derive from the [archived rc5 dataset](https://doi.org/10.5281/zenodo.24163027). [All-version DOI](https://doi.org/10.5281/zenodo.20775314).
 
 | Purpose | Files |
 | --- | --- |
-| Current separate figure panels | `current_figures/`, `FIGURE_TABLE_INDEX.json` |
+| Separate manuscript figure panels | `current_figures/`, `FIGURE_TABLE_INDEX.json` |
 | Numerical tables and source/runtime roles | `data/tables/`, `DATA_SCHEMA.md` |
 | Full physical fields and actual meshes | `data/plot_inputs_*.zip`, `PLOT_INPUT_CATALOG.json` |
 | Native input models and quadrature diagnostics | `data/cad/`, `data/cad_models.zip`, `data/trim_diagnostics/` |
